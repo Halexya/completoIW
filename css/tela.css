@@ -9,6 +9,10 @@
     border-radius: 15px;
 }
 
+.gradient{
+    background: linear-gradient(90deg, #ff7f9d, #3181f8);
+}
+
 h5 {
     font-weight: bold;
 }
