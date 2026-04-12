@@ -1,3 +1,106 @@
+header {
+    background: linear-gradient(135deg, #ff7f9d, #3181f8);
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+.container {
+
+    margin: auto;
+    padding: 40px 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #0b3d91;
+}
+
+.titulo {
+    font-size: 80px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #ff7f9d;
+}
+
+.image {
+    width: 100%;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.highlight {
+    background: #e9edff;
+    padding: 20px;
+    border-left: 4px solid #0b3d91;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.card-define {
+    background: #fdfbfd;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.card-define:hover {
+    transform: scale(1.05);
+}
+
+.card-define img {
+    border-radius: 15px 15px 0 0;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* CARD EDITORA DIFERENCIADO */
+.editora-card {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: 0.3s;
+    border-top: 5px solid;
+    border-image: linear-gradient(90deg, #ff7f9d, #3181f8) 1;
+}
+
+.editora-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* IMAGEM (LOGO) */
+.editora-card img {
+    height: 150px;
+    object-fit: contain;
+    padding: 20px;
+    background: #f5f7ff;
+}
+
+/* NOME */
+.editora-card h5 {
+    font-weight: 600;
+    color: #3181f8;
+}
+
+/* telas */
+
 .card {
     border-radius: 15px;
 }
@@ -9,7 +112,7 @@
     border-radius: 15px;
 }
 
-.gradient{
+.gradient {
     background: linear-gradient(90deg, #ff7f9d, #3181f8);
 }
 

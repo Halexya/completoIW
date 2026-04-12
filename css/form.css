@@ -50,7 +50,6 @@
 }
 
 h3 {
-    font-family:  'Poppins', sans-serif;
     text-transform: uppercase;
     color: #ff7f9d;
     text-align: center;
@@ -88,6 +87,18 @@ button.btn-rosa:hover {
 body {
     margin: 0;
     height: 100vh;
+}
+
+.cadastrarh1 {
+    color: #024bb6;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cadastrartxt {
+    color: #666;
+    margin-bottom: 30px;
+    text-align: center;
 }
 
 .left-side {

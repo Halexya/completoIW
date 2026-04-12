@@ -11,111 +11,10 @@
     <link rel="icon" type="image/x-icon" href="img/favicon.png">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/tela.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" class="fontegoogle"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <style>
-        header {
-            background: linear-gradient(135deg, #ff7f9d, #3181f8);
-            color: white;
-            padding: 80px 20px;
-            text-align: center;
-        }
-
-        header h1 {
-            font-size: 3rem;
-            font-weight: bold;
-            margin-bottom: 10px;
-        }
-
-        header p {
-            font-size: 1.2rem;
-            opacity: 0.9;
-        }
-
-        .container {
-
-            margin: auto;
-            padding: 40px 20px;
-        }
-
-        h2 {
-            font-size: 2rem;
-            font-weight: bold;
-            margin-bottom: 15px;
-            color: #0b3d91;
-        }
-
-        .titulo {
-            font-size: 80px;
-            text-align: center;
-            font-weight: bold;
-            margin-bottom: 15px;
-            color: #ff7f9d;
-        }
-
-        .image {
-            width: 50%;
-            border-radius: 10px;
-            margin: 20px 0;
-        }
-
-        .highlight {
-            background: #e9edff;
-            padding: 20px;
-            border-left: 4px solid #0b3d91;
-            margin: 20px 0;
-            border-radius: 5px;
-        }
-
-        .card {
-            background: #fdfbfd;
-            border: none;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-            border-radius: 15px;
-            transition: 0.3s;
-            cursor: pointer;
-        }
-
-        .card:hover {
-            transform: scale(1.05);
-        }
-
-        .card img {
-            border-radius: 15px 15px 0 0;
-            height: 200px;
-            object-fit: cover;
-        }
-
-        /* CARD EDITORA DIFERENCIADO */
-        .editora-card {
-            background: white;
-            border-radius: 15px;
-            overflow: hidden;
-            transition: 0.3s;
-            border-top: 5px solid;
-            border-image: linear-gradient(90deg, #ff7f9d, #3181f8) 1;
-        }
-
-        .editora-card:hover {
-            transform: translateY(-8px);
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
-        }
-
-        /* IMAGEM (LOGO) */
-        .editora-card img {
-            height: 150px;
-            object-fit: contain;
-            padding: 20px;
-            background: #f5f7ff;
-        }
-
-        /* NOME */
-        .editora-card h5 {
-            font-weight: 600;
-            color: #3181f8;
-        }
-    </style>
 </head>
 
 <body>
@@ -131,13 +30,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                        <a class="nav-link" aria-current="page" href="#">HOME</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="prateleira.html">ESTANTE</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="autores.html">AUTORES</a>
+                        <a class="nav-link active" href="autores.html">AUTORES</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="graficos.html">MAIS LIDOS</a>
@@ -149,7 +48,6 @@
                 </ul>
             </div>
         </div>
-
     </nav>
 
     <header>
@@ -261,9 +159,9 @@
 
                     container.innerHTML += `
         <div class="col autor-card ${contador > 5 ? 'd-none extra' : ''}">
-            <div class="card h-70" onclick="abrirAutor('${id}')">
+            <div class="card card-define h-70" onclick="abrirAutor('${id}')">
                 
-                <img src="${autor.foto}" alt="${autor.nome}">
+                <img src="${autor.foto}" alt="${autor.nome}" class="img-fluid">
 
                 <div class="card-body text-center">
                     <h5>${autor.nome}</h5>
@@ -305,9 +203,9 @@
 
                     container.innerHTML += `
                 <div class="col">
-                    <div class="card editora-card text-center" onclick="abrirEditora('${id}')">
+                    <div class="card card-define editora-card text-center" onclick="abrirEditora('${id}')">
                         
-                        <img src="${editora.logo}" alt="${editora.nome}">
+                        <img src="${editora.logo}" alt="${editora.nome}" class="img-fluid">
 
                     </div>
                 </div>

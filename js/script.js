@@ -1,3 +1,5 @@
+// js dos formulários
+
 // Example starter JavaScript for disabling form submissions if there are invalid fields
 (() => {
   'use strict'
@@ -43,14 +45,13 @@ inputUpload.addEventListener('change', async (evento) => {
     try {
         const base64 = await lerConteudoDoArquivo(arquivo)
 
-        // atualiza preview
         imagemPrincipal.src = base64
 
-        // salva no localStorage para outra página poder usar
         localStorage.setItem("imagemUsuario", base64)
 
     } catch (erro) {
         console.error('Erro na leitura do arquivo')
     }
 })
+
 

@@ -5,12 +5,6 @@ h2{
     font-weight: bold;
 }
 
-h3,h4 {
-    color: #fb5c81;
-    text-align: center;
-    font-weight: bold;
-}
-
 /* Formulário */
 .checkout-wrapper {
     max-width: 700px;
@@ -67,11 +61,6 @@ h3,h4 {
     border-bottom: none;
 }
 
-.avaliacao h4 {
-    margin: 0 0 5px;
-    color: #3139c8;
-}
-
 .avaliacao .estrela-avaliacao {
     color: #3139c8;
     margin-bottom: 5px;
@@ -94,7 +83,7 @@ h3,h4 {
 }
 
 .card {
-    background-color: #e4eaff;
+    background-color: #f7f7fa;
     /* fundo escuro */
     border: none;
     /* remove borda cinza */
@@ -109,7 +98,6 @@ h3,h4 {
 .card-body h5 {
     font-weight: 600;
     color: #fb5c81;
-    /* cor destaque no nome */
 }
 
 .titulo{
