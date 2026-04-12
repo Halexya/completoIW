@@ -1,0 +1,47 @@
+.card {
+    border-radius: 15px;
+}
+
+.perfil-img {
+    height: 200px;
+    width: auto;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+h5 {
+    font-weight: bold;
+}
+
+.box-info {
+    background: linear-gradient(135deg, #fdf2f5, #f8cad4);
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.livros img {
+    width: 120px;
+    border-radius: 8px;
+}
+
+.livros {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+}
+
+.livros img {
+    flex: 0 0 auto;
+}
+
+.avaliacao-bar {
+    height: 7px;
+    border-radius: 10px;
+    background-color: #ddd;
+}
+
+.avaliacao-fill {
+    height: 7px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #a3d4fe, #1a93d9);
+}

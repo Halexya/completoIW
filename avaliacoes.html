@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Eloisa & Haléxya">
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/avaliar.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" class="fontegoogle" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/logos/icone.png" alt="logo" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="prateleira.html">ESTANTE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="autores.html">AUTORES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="graficos.html">MAIS LIDOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="avaliacoes.html">AVALIAÇÕES</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+    <div class="container mt-5">
+        <div class="row g-4 align-items-start">
+            <div class="col-md-6">
+                <div class="checkout-wrapper">
+                    <form id="formAvaliacao" class="row g-3 needs-validation mb-5" method="post"
+                        enctype="multipart/form-data" novalidate>
+                        <h2 class="mt-4">Deixe sua Avaliação</h2>
+
+                        <div class="col-md-6">
+                            <label for="nome" class="form-label">Nome</label>
+                            <input type="text" class="form-control form-control" name="nome" id="nome" value=""
+                                placeholder="Digite seu nome" required>
+                            <div class="valid-feedback">
+                                Parece bom!
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="email" class="form-label">E-mail</label>
+                            <div class="input-group has-validation">
+                                <span class="input-group-text" id="E-mail">@</span>
+                                <input type="text" class="form-control" placeholder="Usuário" id="email" name="email"
+                                    required>
+                                <div class="invalid-feedback">
+                                    Por favor, coloque um nome de usuário.
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="mb-3">
+                            <label>Avaliação:</label>
+                            <div class="stars">
+                                <input type="radio" id="star5" name="estrela" value="5" />
+                                <label for="star5" title="5 estrelas">★</label>
+
+                                <input type="radio" id="star4" name="estrela" value="4" />
+                                <label for="star4" title="4 estrelas">★</label>
+
+                                <input type="radio" id="star3" name="estrela" value="3" />
+                                <label for="star3" title="3 estrelas">★</label>
+
+                                <input type="radio" id="star2" name="estrela" value="2" />
+                                <label for="star2" title="2 estrelas">★</label>
+
+                                <input type="radio" id="star1" name="estrela" value="1" required />
+                                <label for="star1" title="1 estrela">★</label>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="comentario" class="form-label">Comentário</label>
+                            <textarea id="comentario" class="form-control" name="comentario"
+                                placeholder="Escreva sua opinião..." rows="3" required></textarea>
+                        </div>
+
+                        <div class="d-grid gap-2 col-6 mx-auto">
+                            <button class="btn" type="submit">ENVIAR</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="checkout-wrapper ">
+                    <section class="avaliacoes-lista" id="avaliacoesLista">
+                        <h3>Suas avaliações Recentes</h3>
+                        <!-- Avaliações vão aparecer aqui -->
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Avaliações-->
+    <section id="Avaliações" class="py-5">
+        <div class="container avaliacoes">
+            <h2 class="titulo">Avaliações do Último Mês</h2>
+
+            <div class="container text-center">
+
+                <div class="row">
+                    <div class="col-md-4 p-2">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center mb-3">
+                                    <img src="img/avaliações/peopl5.jpg" alt="Foto do usuário"
+                                        class="rounded-circle me-3" width="30" height="30">
+
+                                    <h5 class="mb-0 me-auto">Tony Stark</h5>
+
+                                    <div>
+                                        <i class="bi bi-star-fill estrela"></i>
+                                        <i class="bi bi-star-fill estrela"></i>
+                                        <i class="bi bi-star-fill estrela"></i>
+                                        <i class="bi bi-star-fill estrela"></i>
+                                        <i class="bi bi-star-fill estrela"></i>
+                                    </div>
+                                </div>
+
+                                <p class="card-text">“Simplesmente viciante! A forma como o Percy Jackson narra a
+                                    história deixa tudo mais leve e engraçado. É impossível ler só um livro”</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 p-2">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center mb-3">
+                                    <img src="img/avaliações/people1.jpg" alt="Foto do usuário"
+                                        class="rounded-circle me-3" width="30" height="30">
+
+                                    <h5 class="mb-0 me-auto">Emanuelli Yoko</h5>
+
+                                    <div>
+                                        <i class="bi bi-star-fill estrela"></i>
+                                        <i class="bi bi-star-fill estrela"></i>
+                                        <i class="bi bi-star-fill estrela"></i>
+                                        <i class="bi bi-star-fill estrela"></i>
+                                        <i class="bi bi-star-fill estrela"></i>
+                                    </div>
+                                </div>
+
+                                <p class="card-text">"Esse livro me surpreendeu muito! A história é envolvente e os personagens são muito bem construídos."</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 p-2">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center mb-3">
+                                    <img src="img/avaliações/people4.jpg" alt="Foto do usuário"
+                                        class="rounded-circle me-3" width="30" height="30">
+
+                                    <h5 class="mb-0 me-auto">Lunna Carvalho Monteiro</h5>
+
+                                    <div>
+                                        <i class="bi bi-star-fill estrela"></i>
+                                        <i class="bi bi-star-fill estrela"></i>
+                                        <i class="bi bi-star-fill estrela"></i>
+                                        <i class="bi bi-star-fill nestrela"></i>
+                                        <i class="bi bi-star-fill nestrela"></i>
+                                    </div>
+                                </div>
+
+                                <p class="card-text">“A Colleen Hoover escreve bem, mas às vezes acho as histórias meio repetitivas.”</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-md-4 p-2">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center mb-3">
+                                    <img src="img/avaliações/people8.jpg" alt="Foto do usuário"
+                                        class="rounded-circle me-3" width="30" height="30">
+
+                                    <h5 class="mb-0 me-auto">Nelson Magno</h5>
+
+                                    <div>
+                                        <i class="bi bi-star-fill estrela"></i>
+                                        <i class="bi bi-star-fill estrela"></i>
+                                        <i class="bi bi-star-fill estrela"></i>
+                                        <i class="bi bi-star-fill estrela"></i>
+                                        <i class="bi bi-star-fill nestrela"></i>
+                                    </div>
+                                </div>
+
+                                <p class="card-text">“Gosto bastante dos livros da Editora Intrínseca, sempre trazem títulos interessantes.”</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 p-2">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center mb-3">
+                                    <img src="img/avaliações/people7.jpg" alt="Foto do usuário"
+                                        class="rounded-circle me-3" width="30" height="30">
+
+                                    <h5 class="mb-0 me-auto">Lucas Guilherme</h5>
+
+                                    <div>
+                                        <i class="bi bi-star-fill estrela"></i>
+                                        <i class="bi bi-star-fill estrela"></i>
+                                        <i class="bi bi-star-fill estrela"></i>
+                                        <i class="bi bi-star-fill estrela"></i>
+                                        <i class="bi bi-star-fill estrela"></i>
+                                    </div>
+                                </div>
+
+                                <p class="card-text">"Li É Assim que Acaba e fiquei completamente envolvida na história. Muito emocionante!"</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 p-2">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center mb-3">
+                                    <img src="img/avaliações/people2.jpg" alt="Foto do usuário"
+                                        class="rounded-circle me-3" width="30" height="30">
+
+                                    <h5 class="mb-0 me-auto">Luana Vitória</h5>
+
+                                    <div>
+                                        <i class="bi bi-star-fill estrela"></i>
+                                        <i class="bi bi-star-fill estrela"></i>
+                                        <i class="bi bi-star-fill estrela"></i>
+                                        <i class="bi bi-star-fill nestrela"></i>
+                                        <i class="bi bi-star-fill nestrela"></i>
+                                    </div>
+                                </div>
+
+                                <p class="card-text">“O Iluminado é interessante, mas achei a leitura um pouco lenta em algumas partes.”</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-md-4 p-2">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center mb-3">
+                                    <img src="img/avaliações/mariana.png" alt="Foto do usuário"
+                                        class="rounded-circle me-3" width="30" height="30">
+
+                                    <h5 class="mb-0 me-auto">Mariana Protagonista</h5>
+
+                                    <div>
+                                        <i class="bi bi-star-fill estrela"></i>
+                                        <i class="bi bi-star-fill estrela"></i>
+                                        <i class="bi bi-star-fill estrela"></i>
+                                        <i class="bi bi-star-fill estrela"></i>
+                                        <i class="bi bi-star-fill estrela"></i>
+                                    </div>
+                                </div>
+
+                                <p class="card-text">“O Pequeno Príncipe é um livro simples, mas cheio de significado. Todo mundo deveria ler pelo menos uma vez.”</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 p-2">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center mb-3">
+                                    <img src="img/avaliações/people3.jpg" alt="Foto do usuário"
+                                        class="rounded-circle me-3" width="30" height="30">
+
+                                    <h5 class="mb-0 me-auto">Carla Maria</h5>
+
+                                    <div>
+                                        <i class="bi bi-star-fill estrela"></i>
+                                        <i class="bi bi-star-fill estrela"></i>
+                                        <i class="bi bi-star-fill estrela"></i>
+                                        <i class="bi bi-star-fill estrela"></i>
+                                        <i class="bi bi-star-fill nestrela"></i>
+                                    </div>
+                                </div>
+
+                                <p class="card-text">"Adorei Harry Potter e a Pedra Filosofal! A J. K. Rowling criou um universo mágico que te prende do começo ao fim."</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 p-2">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center mb-3">
+                                    <img src="img/avaliações/people9.jpg" alt="Foto do usuário"
+                                        class="rounded-circle me-3" width="30" height="30">
+
+                                    <h5 class="mb-0 me-auto">Jair Martins</h5>
+
+                                    <div>
+                                        <i class="bi bi-star-fill estrela"></i>
+                                        <i class="bi bi-star-fill estrela"></i>
+                                        <i class="bi bi-star-fill estrela"></i>
+                                        <i class="bi bi-star-fill estrela"></i>
+                                        <i class="bi bi-star-fill nestrela"></i>
+                                    </div>
+                                </div>
+
+                                <p class="card-text">"A escrita do George Orwell é muito impactante. Ele consegue transmitir mensagens fortes de forma simples.”"</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+        const form = document.getElementById('formAvaliacao');
+        const avaliacoesLista = document.getElementById('avaliacoesLista');
+
+        function criarEstrelas(qtd) {
+            let estrelas = '';
+            for (let i = 0; i < qtd; i++) {
+                estrelas += '★';
+            }
+            return estrelas;
+        }
+
+        function adicionarAvaliacao(nome, estrelas, comentario) {
+            const div = document.createElement('div');
+            div.classList.add('avaliacao');
+
+            div.innerHTML = `
+        <h4>${nome}</h4>
+        <div class="estrela-avaliacao">${criarEstrelas(estrelas)}</div>
+        <p>${comentario}</p>
+      `;
+            avaliacoesLista.appendChild(div);
+        }
+
+        form.addEventListener('submit', function (e) {
+            e.preventDefault();
+            e.stopPropagation(); // evita que o Bootstrap bloqueie
+
+            // Pega os valores dos campos
+            const nome = form.nome.value.trim();
+            const email = form.email.value.trim();
+            const estrelas = form.querySelector('input[name="estrela"]:checked')?.value;
+            const comentario = form.comentario.value.trim();
+
+            // Verifica se os campos estão preenchidos
+            if (nome && email && estrelas && comentario) {
+                adicionarAvaliacao(nome, estrelas, comentario);
+                form.reset();
+                alert('Obrigado pela sua avaliação!');
+            } else {
+                alert('Por favor, preencha todos os campos.');
+            }
+
+            form.classList.add('was-validated'); // marca o form como validado pelo Bootstrap
+
+        });
+    </script>
+
+</body>
+
+</html>

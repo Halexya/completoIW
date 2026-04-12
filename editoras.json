@@ -1,0 +1,247 @@
+{
+    "rocco": {
+        "nome": "Rocco",
+        "pais": "Brasil",
+        "nota": 4.7,
+        "livros": 210,
+        "seguidores": 38000,
+        "leitores": 150000,
+        "fundacao": 1975,
+        "categoria": "Ficção e fantasia",
+        "descricao": "Editora famosa por publicar grandes sucessos internacionais como Harry Potter no Brasil.",
+        "logo": "img/editoras/rocco.jpg",
+        "livrosImgs": [
+            "img/livro/rowling/1.jpg",
+            "img/livro/rowling/2.jpg",
+            "img/livro/rowling/3.jpg",
+            "img/livro/rowling/4.jpg",
+            "img/livro/clarice/1.jpg",
+            "img/livro/clarice/2.jpg",
+            "img/livro/clarice/3.jpg",
+            "img/livro/clarice/4.jpg",
+            "img/livro/clarice/5.jpg",
+            "img/livro/clarice/6.jpg"
+        ],
+        "estatisticas": {
+            "5": 75,
+            "4": 55,
+            "3": 35
+        }
+    },
+    "universo": {
+        "nome": "Universo dos Livros",
+        "pais": "Brasil",
+        "nota": 4.6,
+        "livros": 180,
+        "seguidores": 30000,
+        "leitores": 120000,
+        "fundacao": 2006,
+        "categoria": "Romance e entretenimento",
+        "descricao": "Conhecida por livros de romance e títulos voltados ao público jovem.",
+        "logo": "img/editoras/livros.jpg",
+        "livrosImgs": [
+            "img/livro/mafi/1.jpg",
+            "img/livro/mafi/2.jpg",
+            "img/livro/mafi/3.jpg",
+            "img/livro/mafi/4.jpg",
+            "img/livro/mafi/5.jpg",
+            "img/livro/mafi/6.jpg",
+            "img/livro/mafi/7.jpg"
+        ],
+        "estatisticas": {
+            "5": 70,
+            "4": 50,
+            "3": 30
+        }
+    },
+    "planeta": {
+        "nome": "Planeta Minotauro",
+        "pais": "Brasil",
+        "nota": 4.7,
+        "livros": 150,
+        "seguidores": 25000,
+        "leitores": 100000,
+        "fundacao": 2018,
+        "categoria": "Fantasia e ficção",
+        "descricao": "Selo da Planeta focado em fantasia, ficção científica e cultura pop.",
+        "logo": "img/editoras/minotauro.jpg",
+        "livrosImgs": [
+            "img/livro/martin/1.jpg",
+            "img/livro/martin/2.jpg",
+            "img/livro/martin/3.jpg",
+            "img/livro/martin/4.jpg",
+            "img/livro/martin/5.jpg",
+            "img/livro/martin/6.jpg",
+            "img/livro/yarros/1.jpg",
+            "img/livro/yarros/2.jpg",
+            "img/livro/yarros/3.jpg",
+            "img/livro/yarros/4.jpg",
+            "img/livro/yarros/5.jpg",
+            "img/livro/yarros/6.jpg",
+            "img/livro/king/1.jpg",
+            "img/livro/king/2.jpg",
+            "img/livro/king/3.jpg",
+            "img/livro/king/4.jpg"
+        ],
+        "estatisticas": {
+            "5": 78,
+            "4": 58,
+            "3": 38
+        }
+    },
+    "intrinseca": {
+        "nome": "Intrínseca",
+        "pais": "Brasil",
+        "nota": 4.9,
+        "livros": 260,
+        "seguidores": 60000,
+        "leitores": 220000,
+        "fundacao": 2003,
+        "categoria": "Best-sellers",
+        "descricao": "Uma das editoras mais populares do Brasil, responsável por grandes best-sellers.",
+        "logo": "img/editoras/intrinseca.jpg",
+        "livrosImgs": [
+            "img/livro/collins/1.jpg",
+            "img/livro/collins/2.jpg",
+            "img/livro/collins/3.jpg",
+            "img/livro/collins/4.jpg",
+            "img/livro/collins/5.jpg",
+            "img/livro/collins/6.jpg",
+            "img/livro/gaiman/1.jpg",
+            "img/livro/gaiman/2.jpg",
+            "img/livro/gaiman/3.jpg",
+            "img/livro/gaiman/4.jpg",
+            "img/livro/gaiman/5.jpg",
+            "img/livro/gaiman/6.jpg",
+            "img/livro/jackson/1.jpg",
+            "img/livro/jackson/2.jpg",
+            "img/livro/jackson/3.jpg",
+            "img/livro/jackson/4.jpg",
+            "img/livro/jackson/5.jpg",
+            "img/livro/riordan/1.jpg",
+            "img/livro/riordan/2.jpg",
+            "img/livro/riordan/3.jpg",
+            "img/livro/riordan/4.jpg"
+        ],
+        "estatisticas": {
+            "5": 85,
+            "4": 65,
+            "3": 45
+        }
+    },
+    "galera": {
+        "nome": "Galera Record",
+        "pais": "Brasil",
+        "nota": 4.6,
+        "livros": 190,
+        "seguidores": 35000,
+        "leitores": 140000,
+        "fundacao": 2007,
+        "categoria": "Jovem adulto",
+        "descricao": "Selo da Record voltado para o público jovem e literatura YA.",
+        "logo": "img/editoras/galera.jpg",
+        "livrosImgs": [
+            "img/livro/hoover/1.jpg",
+            "img/livro/hoover/2.jpg",
+            "img/livro/hoover/3.jpg",
+            "img/livro/hoover/4.jpg",
+            "img/livro/roth/1.jpg",
+            "img/livro/roth/2.jpg",
+            "img/livro/roth/3.jpg",
+            "img/livro/roth/4.jpg",
+            "img/livro/roth/5.jpg",
+            "img/livro/roth/6.jpg"
+        ],
+        "estatisticas": {
+            "5": 72,
+            "4": 52,
+            "3": 32
+        }
+    },
+    "arqueiro": {
+        "nome": "Arqueiro",
+        "pais": "Brasil",
+        "nota": 4.8,
+        "livros": 240,
+        "seguidores": 45000,
+        "leitores": 180000,
+        "fundacao": 2011,
+        "categoria": "Ficção e suspense",
+        "descricao": "Especializada em romances, thrillers e grandes sucessos internacionais.",
+        "logo": "img/editoras/arqueiro.jpg",
+        "livrosImgs": [
+            "img/livro/brown/1.jpg",
+            "img/livro/brown/2.jpg",
+            "img/livro/brown/3.jpg",
+            "img/livro/brown/4.jpg",
+            "img/livro/brown/5.jpg",
+            "img/livro/brown/6.jpg",
+            "img/livro/mcfadden/1.jpg",
+            "img/livro/mcfadden/2.jpg",
+            "img/livro/mcfadden/3.jpg",
+            "img/livro/mcfadden/4.jpg",
+            "img/livro/mcfadden/5.jpg",
+            "img/livro/mcfadden/6.jpg"
+        ],
+        "estatisticas": {
+            "5": 82,
+            "4": 62,
+            "3": 42
+        }
+    },
+    "alt": {
+        "nome": "Alt",
+        "pais": "Brasil",
+        "nota": 4.6,
+        "livros": 110,
+        "seguidores": 20000,
+        "leitores": 90000,
+        "fundacao": 2018,
+        "categoria": "Ficção jovem",
+        "descricao": "Selo moderno focado em literatura jovem e contemporânea.",
+        "logo": "img/editoras/alt.jpg",
+        "livrosImgs": [
+            "img/livro/painter/1.jpg",
+            "img/livro/painter/2.jpg",
+            "img/livro/painter/3.jpg",
+            "img/livro/painter/4.jpg",
+            "img/livro/painter/5.jpg",
+            "img/livro/painter/6.jpg"
+        ],
+        "estatisticas": {
+            "5": 70,
+            "4": 50,
+            "3": 30
+        }
+    },
+    "gutenberg": {
+        "nome": "Gutenberg",
+        "pais": "Brasil",
+        "nota": 4.6,
+        "livros": 140,
+        "seguidores": 22000,
+        "leitores": 95000,
+        "fundacao": 2010,
+        "categoria": "Clássicos e romance",
+        "descricao": "Editora conhecida por publicar clássicos e romances contemporâneos.",
+        "logo": "img/editoras/gutenberg.jpg",
+        "livrosImgs": [
+            "img/livro/austen/1.jpg",
+            "img/livro/austen/2.jpg",
+            "img/livro/austen/3.jpg",
+            "img/livro/austen/4.jpg",
+            "img/livro/austen/5.jpg",
+            "img/livro/machado/1.jpg",
+            "img/livro/machado/2.jpg",
+            "img/livro/machado/3.jpg",
+            "img/livro/machado/4.jpg",
+            "img/livro/machado/5.jpg",
+            "img/livro/machado/6.jpg"
+        ],
+        "estatisticas": {
+            "5": 74,
+            "4": 54,
+            "3": 34
+        }
+    }
+}

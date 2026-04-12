@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autores</title>
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Eloisa & Haléxya">
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/tela.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" class="fontegoogle"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <div class="container mt-4">
+
+        <nav class="container" style="--bs-breadcrumb-divider: '';" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="autores.html">Autores e Editoras</a></li>
+                <p class="mx-2">></p>
+                <li class="breadcrumb-item active" aria-current="page">Autor</li>
+            </ol>
+        </nav>
+        <!-- TOPO -->
+        <div class="row">
+            <!-- FOTO + MENU -->
+            <div class="row mt-3">
+                <div class="col-md-3 text-center">
+                    <img id="foto" class="perfil-img img-fluid mb-3">
+
+                    <h5 id="nomeLateral"></h5>
+
+
+                    <div class="card mt-3 p-3 text-start">
+                        <strong>Biografia</strong>
+                        <p class="mb-1">
+                            Livros publicados
+                            <span id="livrosLateral" class="float-end"></span>
+                        </p>
+                        <p>
+                            Vídeos
+                            <span id="videos" class="float-end"></span>
+                        </p>
+                    </div>
+                </div>
+
+
+                <!-- INFO PRINCIPAL -->
+                <div class="col-md-9">
+
+                    <h3>
+                        <span id="nome"></span>
+                        <small class="text-muted">| <span id="pais"></span></small>
+                    </h3>
+
+                    <div class="row mt-3">
+                        <div class="col-6 col-md-3 mb-3">
+                            <div class="box-info">
+                                <h4 id="nota"></h4>
+                                <small id="avaliacoes"></small>
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-md-3 mb-3">
+                            <div class="box-info">
+                                <h4 id="totalLivros"></h4>
+                                <small>Livros</small>
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-md-3 mb-3">
+                            <div class="box-info">
+                                <h4 id="leitores"></h4>
+                                <small>Leitores</small>
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-md-3 mb-3">
+                            <div class="box-info">
+                                <h4 id="seguidores"></h4>
+                                <small>Seguidores</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- BIO -->
+                    <p id="bio" class="mt-4"></p>
+
+                    <!-- GÊNERO -->
+                    <span id="genero" class="badge"
+                        style="background: linear-gradient(90deg, #ff7f9d, #3181f8);"></span>
+
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-12 col-md-4 mx-auto">
+                    <div class="card mt-4 p-3">
+                        <div class="d-flex justify-content-between">
+                            <h5>Livros publicados</h5>
+                        </div>
+
+                        <div class="position-relative mt-3">
+                            <button class="btn position-absolute top-50 start-0 translate-middle-y"
+                                onclick="scrollLivros(-1)" style="background: linear-gradient(90deg, #ff7f9d, #3181f8);">
+                                <i class="bi bi-chevron-left"></i>
+                            </button>
+
+                            <div id="livrosContainer" class="d-flex gap-3 livros mx-5"></div>
+
+                            <button class="btn position-absolute  top-50 end-0 translate-middle-y"
+                                onclick="scrollLivros(1)" style="background: linear-gradient(90deg, #ff7f9d, #3181f8);">
+                                <i class="bi bi-chevron-right"></i>
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-8 mx-auto">
+                    <div class="card mt-4 p-4">
+                        <h5>Estatísticas</h5>
+
+                        <div class="d-flex align-items-center gap-2 mb-2">
+                            <span style="min-width: 80px;">5 estrelas</span>
+                            <div class="avaliacao-bar flex-grow-1">
+                                <div id="star5" class="avaliacao-fill"></div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex align-items-center gap-2 mb-2">
+                            <span style="min-width: 80px;">4 estrelas</span>
+                            <div class="avaliacao-bar flex-grow-1">
+                                <div id="star4" class="avaliacao-fill"></div>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center gap-2 mb-2">
+                            <span style="min-width: 80px;">3 estrelas</span>
+                            <div class="avaliacao-bar flex-grow-1">
+                                <div id="star3" class="avaliacao-fill"></div>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center gap-2 mb-2">
+                            <span style="min-width: 80px;">2 estrelas</span>
+                            <div class="avaliacao-bar flex-grow-1">
+                                <div id="star2" class="avaliacao-fill"></div>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center gap-2 mb-2">
+                            <span style="min-width: 80px;">1 estrelas</span>
+                            <div class="avaliacao-bar flex-grow-1">
+                                <div id="star1" class="avaliacao-fill"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+        <script>
+            const params = new URLSearchParams(window.location.search);
+            const id = params.get("id") || "rowling";
+
+            fetch("autores.json")
+                .then(res => res.json())
+                .then(dados => {
+
+                    const autor = dados[id];
+                    const stats = autor.estatisticas;
+
+                    if (!autor) return;
+
+                    // Dados básicos
+                    document.getElementById("nomeLateral").textContent = autor.nome;
+                    document.getElementById("livrosLateral").textContent = autor.livros;
+                    document.getElementById("videos").textContent = autor.videos;
+                    document.getElementById("nome").textContent = autor.nome;
+                    document.getElementById("pais").textContent = autor.pais;
+                    document.getElementById("nota").textContent = autor.nota + " ★";
+                    document.getElementById("avaliacoes").textContent = autor.avaliacoes + " avaliações";
+                    document.getElementById("totalLivros").textContent = autor.livros;
+                    document.getElementById("seguidores").textContent = autor.seguidores;
+                    document.getElementById("leitores").textContent = autor.leitores;
+                    document.getElementById("bio").textContent = autor.bio;
+                    document.getElementById("genero").textContent = autor.genero;
+                    document.getElementById("star5").style.width = stats["5"] + "%";
+                    document.getElementById("star4").style.width = stats["4"] + "%";
+                    document.getElementById("star3").style.width = stats["3"] + "%";
+                    document.getElementById("star2").style.width = stats["2"] + "%";
+                    document.getElementById("star1").style.width = stats["1"] + "%";
+
+                    // Foto
+                    document.getElementById("foto").src = autor.foto;
+
+                    // Livros (imagens)
+                    const container = document.getElementById("livrosContainer");
+                    container.innerHTML = "";
+
+                    autor.livrosImgs.forEach(img => {
+                        container.innerHTML += `<img src="${img}">`;
+                    });
+
+                    // Barras de avaliação
+                    const detalhe = autor.avaliacoesDetalhe;
+
+                    document.querySelector(".avaliacao-fill:nth-child(1)").style.width = detalhe["5"] + "%";
+                    document.querySelector(".avaliacao-fill:nth-child(2)").style.width = detalhe["4"] + "%";
+                    document.querySelector(".avaliacao-fill:nth-child(3)").style.width = detalhe["3"] + "%";
+
+                })
+                .catch(err => console.error("Erro:", err));
+
+            function scrollLivros(direcao) {
+                const container = document.getElementById("livrosContainer");
+
+                container.scrollBy({
+                    left: direcao * 300,
+                    behavior: 'smooth'
+                });
+            }
+        </script>
+</body>
+
+</html>

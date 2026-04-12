@@ -1,0 +1,146 @@
+.container-centralizado {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.formulario {
+    width: 650px;
+    max-width: 100%;
+    border: 3px solid #e4eaff;
+    background-color: #e4eaff;
+    border-radius: 12px;
+    margin: auto;
+    padding: 2rem 1rem;
+    box-shadow: 0 0 10px rgb(123, 122, 127);
+}
+
+.form-control,
+.form-select {
+    background-color: #f0f2f8;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #172d5c;
+    box-shadow: 0 0 0 1px #3139c8;
+    background-color: #cdd8fd;
+    color: #000000;
+}
+
+.form-label {
+    font-weight: 600;
+    color: #3139c8;
+    font-weight: bold;
+}
+
+.dados {
+    width: 500px;
+    max-width: 100%;
+    border: 3px solid #e3e5ef;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgb(123, 122, 127);
+    border-top: 6px solid #3181f8;
+}
+
+.logo {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-family:  'Poppins', sans-serif;
+    text-transform: uppercase;
+    color: #ff7f9d;
+    text-align: center;
+    font-weight: bold;
+}
+
+.dados strong {
+    color: #3181f8;
+}
+
+/* IMAGEM */
+.dados img {
+    border: 3px solid #ff7f9d;
+    padding: 5px;
+}
+
+button.btn-rosa {
+    background: linear-gradient(135deg, #ff7f9d, #fb5c81);
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+    color: #f1d8f9;
+}
+
+button.btn-rosa:hover {
+    transform: scale(1.05);
+    background: linear-gradient(135deg, #fb5c81, #d91a44);
+    color: #fff;
+}
+
+
+/* cadastrar.php */
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+.left-side {
+    background: linear-gradient(135deg, #0b3d91, #1f6feb);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px;
+    position: relative;
+    overflow: hidden;
+}
+
+.left-side::before {
+    content: "";
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background: url('../img/logos/livrologo.png') no-repeat center;
+    background-size: contain;
+    opacity: 0.08;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.left-side h1 {
+    font-weight: bold;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-custom {
+    width: 200px;
+    border-radius: 30px;
+    padding: 12px;
+    margin-bottom: 15px;
+}
+
+.svg i {
+    font-size: 20px;
+    margin: 0 8px;
+    color: #024bb6;
+    cursor: pointer;
+}
+
+@media(max-width: 768px) {
+    .left-side {
+        display: none;
+    }
+}

@@ -1,0 +1,80 @@
+git config --global user.name "Halexya"
+git config --global user.email "ohalexya@gmail.com"
+
+https://startbootstrap.com/previews/sb-admin-2 <--- modelo  gráfico interativo
+https://apexcharts.com/javascript-chart-demos/
+
+
+paginas:
+-index-home: (Eloisa)
+    Destaques da semana
+    Livros recomendados
+    Novidades e lançamentos
+    Livros recém-publicados
+    Tendências do mercado
+    Destaques do mês
+
+        Organização por categorias (romance, terror, fantasia, etc.)
+        Sugestões dentro de cada gênero <--dentro da pesquisa(usuario pesquisa livro por filtro de gênero)
+
+-grafico/tabela (Eloisa)
+  Favoritos / Mais Lidos
+    Livros populares entre leitores
+    Rankings (top 10, top 20)
+    Indicações do público
+    
+
+-Autores (Haléxya)
+Biografias de escritores
+Principais obras
+Curiosidades sobre autores
+
+
+-Avaliações (Haléxya)
+Análises de livros
+Opiniões e avaliações
+Classificação (nota, estrelas, etc.)
+
+
+-Prateleira (Eloisa)
+    Livros que o usuário já leu (estático)
+
+
+
+OPCIONAL(caso dê tempo):
+    grafico/tabela
+        Desafios de Leitura
+        avaliações-
+
+
+Object.keys(dados).forEach(id => {
+
+                    const autor = dados[id];
+
+                    container.innerHTML += `
+            <div class="col">
+                <div class="card h-70" onclick="abrirAutor('${id}')">
+                    
+                    <img src="${autor.foto}" alt="${autor.nome}">
+
+                    <div class="card-body text-center">
+                        <h5 style="color:#ff7f9d">${autor.nome}</h5>
+                    </div>
+
+                </div>
+            </div>
+        `;
+                });
+
+rocco
+universo do livros
+planeta minotauro
+intrínseca
+galera recorde
+arqueiro
+versos
+seguinte
+alt 
+novo conceito
+gutenbenrg
+

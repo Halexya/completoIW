@@ -1,0 +1,490 @@
+{
+  "jk_rowling": {
+    "nome": "J.K. Rowling",
+    "pais": "Reino Unido",
+    "nota": 4.9,
+    "avaliacoes": 19437,
+    "livros": 15,
+    "leitores": 12000,
+    "seguidores": 22198,
+    "videos": 12,
+    "genero": "Fantasia",
+    "bio": "Joanne Kathleen Rowling, conhecida como J.K. Rowling, nasceu em 31 de julho de 1965, na Inglaterra. É uma escritora, roteirista e produtora britânica que alcançou fama mundial ao criar a série Harry Potter, uma das mais vendidas da história da literatura. Antes do sucesso, enfrentou dificuldades financeiras significativas, chegando a viver com poucos recursos enquanto escrevia o primeiro livro da saga em cafés. A história do jovem bruxo rapidamente conquistou leitores de todas as idades, sendo traduzida para dezenas de idiomas e adaptada para uma das franquias cinematográficas mais lucrativas da história. Rowling expandiu esse universo com novas obras, roteiros e projetos, consolidando o chamado 'Mundo Bruxo'. Além de sua carreira literária, também é conhecida por seu trabalho filantrópico, apoiando instituições voltadas à infância, combate à pobreza e doenças. Sua trajetória é frequentemente citada como um exemplo de perseverança, criatividade e impacto cultural global.",
+    "foto": "img/autores/rowling.jpg",
+
+    "livrosImgs": [
+      "img/livro/rowling/1.jpg",
+      "img/livro/rowling/2.jpg",
+      "img/livro/rowling/3.jpg",
+      "img/livro/rowling/4.jpg"
+    ],
+
+    "estatisticas": { "5": 92, "4": 5, "3": 2, "2": 1, "1": 0 }
+  },
+
+  "rebecca_yarros": {
+    "nome": "Rebecca Yarros",
+    "pais": "Estados Unidos",
+    "nota": 4.8,
+    "avaliacoes": 9800,
+    "livros": 10,
+    "leitores": 8000,
+    "seguidores": 15000,
+    "videos": 6,
+    "genero": "Fantasia / Romance",
+    "bio": "Rebecca Yarros é uma escritora norte-americana reconhecida por seus romances contemporâneos e, mais recentemente, por seu sucesso no gênero de fantasia com a série 'Empyrean', iniciada com 'Fourth Wing'. Sua escrita se destaca pela combinação de romance intenso, ação envolvente e construção de personagens emocionalmente complexos. Ao longo de sua carreira, publicou diversos livros voltados ao público adulto e jovem adulto, abordando temas como amor, perda, superação e coragem. Seu crescimento no cenário literário foi impulsionado pela popularidade nas redes sociais e pelo boca a boca entre leitores, tornando-se rapidamente um fenômeno global. Yarros é considerada uma das vozes mais promissoras da nova geração de autores de fantasia e romance.",
+    "foto": "img/autores/yarros.jpg",
+
+    "livrosImgs": [
+      "img/livro/yarros/1.jpg",
+      "img/livro/yarros/2.jpg",
+      "img/livro/yarros/3.jpg",
+      "img/livro/yarros/4.jpg",
+      "img/livro/yarros/5.jpg",
+      "img/livro/yarros/6.jpg"
+    ],
+
+    "estatisticas": { "5": 90, "4": 6, "3": 2, "2": 1, "1": 1 }
+  },
+
+  "rick_riordan": {
+    "nome": "Rick Riordan",
+    "pais": "Estados Unidos",
+    "nota": 4.9,
+    "avaliacoes": 25000,
+    "livros": 20,
+    "leitores": 20000,
+    "seguidores": 30000,
+    "videos": 10,
+    "genero": "Fantasia / Mitologia",
+    "bio": "Rick Riordan é um escritor norte-americano nascido em 1964, amplamente conhecido por criar a série 'Percy Jackson e os Olimpianos'. Antes de se dedicar integralmente à escrita, trabalhou como professor de história, experiência que influenciou diretamente seu estilo narrativo. Suas obras são marcadas pela mistura entre mitologia clássica e o mundo moderno, tornando histórias antigas acessíveis e interessantes para o público jovem. O sucesso de Percy Jackson levou à criação de outras séries baseadas em diferentes mitologias, como a egípcia e a nórdica. Seus livros venderam milhões de cópias em todo o mundo e foram adaptados para cinema e televisão. Riordan é reconhecido por incentivar a leitura entre jovens e por criar personagens carismáticos e representativos.",
+    "foto": "img/autores/riordan.jpg",
+
+    "livrosImgs": [
+      "img/livro/riordan/1.jpg",
+      "img/livro/riordan/2.jpg",
+      "img/livro/riordan/3.jpg",
+      "img/livro/riordan/4.jpg"
+    ],
+
+    "estatisticas": { "5": 93, "4": 4, "3": 2, "2": 1, "1": 0 }
+  },
+
+  "colleen_hoover": {
+    "nome": "Colleen Hoover",
+    "pais": "Estados Unidos",
+    "nota": 4.7,
+    "avaliacoes": 30000,
+    "livros": 25,
+    "leitores": 22000,
+    "seguidores": 40000,
+    "videos": 8,
+    "genero": "Romance",
+    "bio": "Colleen Hoover é uma autora norte-americana que se tornou um fenômeno global no gênero romance contemporâneo. Seus livros são conhecidos por abordar temas intensos e emocionais, como relacionamentos complexos, traumas psicológicos, abuso e superação. Obras como 'Assim que Acaba' conquistaram milhões de leitores ao redor do mundo, especialmente entre o público jovem adulto. Seu estilo de escrita é direto, envolvente e altamente emocional, o que facilita a conexão com os leitores. Hoover ganhou grande popularidade através das redes sociais, especialmente no TikTok, onde seus livros viralizaram. Hoje, é considerada uma das autoras mais influentes e lidas da atualidade.",
+    "foto": "img/autores/hoover.jpg",
+
+    "livrosImgs": [
+      "img/livro/hoover/1.jpg",
+      "img/livro/hoover/2.jpg",
+      "img/livro/hoover/3.jpg",
+      "img/livro/hoover/4.jpg"
+    ],
+
+    "estatisticas": { "5": 88, "4": 7, "3": 3, "2": 1, "1": 1 }
+  },
+
+  "holly_jackson": {
+    "nome": "Holly Jackson",
+    "pais": "Reino Unido",
+    "nota": 4.6,
+    "avaliacoes": 12000,
+    "livros": 5,
+    "leitores": 9000,
+    "seguidores": 14000,
+    "videos": 4,
+    "genero": "Suspense",
+    "bio": "Holly Jackson é uma escritora britânica conhecida por seus livros de suspense voltados ao público jovem adulto. Ganhou destaque internacional com a série 'Manual de Assassinato para Boas Garotas', que combina investigação, mistério e reviravoltas inteligentes. Sua escrita é moderna, dinâmica e cheia de tensão, explorando temas como justiça, manipulação e busca pela verdade. Jackson se destaca por construir narrativas envolventes e personagens bem desenvolvidos, mantendo o leitor intrigado do início ao fim. Seu sucesso a consolidou como um dos principais nomes do suspense juvenil na atualidade.",
+    "foto": "img/autores/jackson.jpg",
+
+    "livrosImgs": [
+      "img/livro/jackson/1.jpg",
+      "img/livro/jackson/2.jpg",
+      "img/livro/jackson/3.jpg",
+      "img/livro/jackson/4.jpg",
+      "img/livro/jackson/5.jpg"
+    ],
+
+    "estatisticas": { "5": 85, "4": 10, "3": 3, "2": 1, "1": 1 }
+  },
+
+  "stephen_king": {
+    "nome": "Stephen King",
+    "pais": "Estados Unidos",
+    "nota": 4.9,
+    "avaliacoes": 50000,
+    "livros": 60,
+    "leitores": 40000,
+    "seguidores": 60000,
+    "videos": 20,
+    "genero": "Terror",
+    "bio": "Stephen King é um dos autores mais famosos e prolíficos da literatura mundial, conhecido como o 'Rei do Terror'. Nascido em 1947, construiu uma carreira sólida escrevendo histórias que exploram o medo psicológico, o sobrenatural e os aspectos mais sombrios da natureza humana. Entre suas obras mais conhecidas estão 'It: A Coisa', 'O Iluminado' e 'Carrie'. Muitos de seus livros foram adaptados para cinema, televisão e séries, ampliando ainda mais seu alcance. King é reconhecido por sua habilidade em criar atmosferas intensas e personagens realistas, tornando suas histórias profundamente impactantes. Sua influência no gênero do terror é imensa e duradoura.",
+    "foto": "img/autores/king.jpg",
+
+    "livrosImgs": [
+      "img/livro/king/1.jpg",
+      "img/livro/king/2.jpg",
+      "img/livro/king/3.jpg",
+      "img/livro/king/4.jpg"
+    ],
+
+    "estatisticas": { "5": 95, "4": 3, "3": 1, "2": 1, "1": 0 }
+  },
+
+  "george_rr_martin": {
+    "nome": "George R. R. Martin",
+    "pais": "Estados Unidos",
+    "nota": 4.8,
+    "avaliacoes": 28000,
+    "livros": 15,
+    "leitores": 20000,
+    "seguidores": 35000,
+    "videos": 9,
+    "genero": "Fantasia",
+    "bio": "George R. R. Martin é um escritor norte-americano conhecido pela série 'As Crônicas de Gelo e Fogo', que deu origem à famosa adaptação televisiva 'Game of Thrones'. Suas histórias são marcadas por narrativas complexas, múltiplos pontos de vista e personagens profundamente desenvolvidos. Diferente da fantasia tradicional, Martin traz uma abordagem mais realista e política, com conflitos intensos e reviravoltas imprevisíveis. Seu trabalho ajudou a redefinir o gênero de fantasia moderna, tornando-o mais adulto e sofisticado.",
+    "foto": "img/autores/martin.jpg",
+
+    "livrosImgs": [
+      "img/livro/martin/1.jpg",
+      "img/livro/martin/2.jpg",
+      "img/livro/martin/3.jpg",
+      "img/livro/martin/4.jpg"
+    ],
+
+    "estatisticas": { "5": 91, "4": 6, "3": 2, "2": 1, "1": 0 }
+  },
+
+  "agatha_christie": {
+    "nome": "Agatha Christie",
+    "pais": "Reino Unido",
+    "nota": 4.9,
+    "avaliacoes": 32000,
+    "livros": 80,
+    "leitores": 25000,
+    "seguidores": 30000,
+    "videos": 5,
+    "genero": "Mistério",
+    "bio": "Agatha Christie foi uma escritora britânica amplamente reconhecida como a rainha do mistério. Criadora de personagens icônicos como Hercule Poirot e Miss Marple, escreveu dezenas de romances policiais que venderam bilhões de cópias em todo o mundo. Suas histórias são conhecidas por enigmas bem construídos, pistas sutis e finais surpreendentes. Sua influência no gênero policial é incomparável, sendo uma das autoras mais traduzidas e lidas da história.",
+    "foto": "img/autores/christie.jpg",
+
+    "livrosImgs": [
+      "img/livro/christie/1.jpg",
+      "img/livro/christie/2.jpg",
+      "img/livro/christie/3.jpg",
+      "img/livro/christie/4.jpg",
+      "img/livro/christie/5.jpg",
+      "img/livro/christie/6.jpg"
+    ],
+
+    "estatisticas": { "5": 94, "4": 4, "3": 1, "2": 1, "1": 0 }
+  },
+
+  "jane_austen": {
+    "nome": "Jane Austen",
+    "pais": "Reino Unido",
+    "nota": 4.8,
+    "avaliacoes": 21000,
+    "livros": 6,
+    "leitores": 15000,
+    "seguidores": 18000,
+    "videos": 3,
+    "genero": "Romance",
+    "bio": "Jane Austen foi uma escritora inglesa do século XIX conhecida por suas obras que retratam a sociedade, os costumes e os relacionamentos de sua época. Seus romances, como 'Orgulho e Preconceito', exploram temas como amor, classe social, moralidade e comportamento humano. Sua escrita é marcada por ironia, elegância e observação crítica da sociedade. Mesmo séculos após sua morte, suas obras continuam sendo amplamente lidas e adaptadas.",
+    "foto": "img/autores/austen.jpg",
+
+    "livrosImgs": [
+      "img/livro/austen/1.jpg",
+      "img/livro/austen/2.jpg",
+      "img/livro/austen/3.jpg",
+      "img/livro/austen/4.jpg",
+      "img/livro/austen/5.jpg"
+    ],
+
+    "estatisticas": { "5": 90, "4": 7, "3": 2, "2": 1, "1": 0 }
+  },
+
+  "neil_gaiman": {
+    "nome": "Neil Gaiman",
+    "pais": "Reino Unido",
+    "nota": 4.7,
+    "avaliacoes": 17000,
+    "livros": 20,
+    "leitores": 14000,
+    "seguidores": 20000,
+    "videos": 7,
+    "genero": "Fantasia",
+    "bio": "Neil Gaiman é um escritor britânico conhecido por sua habilidade em misturar fantasia, mitologia, horror e elementos contemporâneos. Autor de obras como 'Coraline' e 'Deuses Americanos', Gaiman também atua como roteirista e criador de histórias em quadrinhos. Seu estilo criativo e imaginativo o tornou uma referência na literatura fantástica moderna, sendo reconhecido mundialmente por sua originalidade e versatilidade.",
+    "foto": "img/autores/gaiman.jpg",
+
+    "livrosImgs": [
+      "img/livro/gaiman/1.jpg",
+      "img/livro/gaiman/2.jpg",
+      "img/livro/gaiman/3.jpg",
+      "img/livro/gaiman/4.jpg",
+      "img/livro/gaiman/5.jpg",
+      "img/livro/gaiman/6.jpg"
+    ],
+
+    "estatisticas": { "5": 89, "4": 8, "3": 2, "2": 1, "1": 0 }
+  },
+
+  "dan_brown": {
+    "nome": "Dan Brown",
+    "pais": "Estados Unidos",
+    "nota": 4.6,
+    "avaliacoes": 26000,
+    "livros": 10,
+    "leitores": 18000,
+    "seguidores": 22000,
+    "videos": 6,
+    "genero": "Suspense",
+    "bio": "Dan Brown é um escritor norte-americano conhecido por seus thrillers que combinam história, religião, arte e conspirações. Seu livro mais famoso, 'O Código Da Vinci', tornou-se um fenômeno mundial, gerando debates e adaptações para o cinema. Seus romances são caracterizados por ritmo acelerado, enigmas complexos e reviravoltas constantes, mantendo o leitor envolvido do início ao fim.",
+    "foto": "img/autores/brown.jpg",
+
+    "livrosImgs": [
+      "img/livro/brown/1.jpg",
+      "img/livro/brown/2.jpg",
+      "img/livro/brown/3.jpg",
+      "img/livro/brown/4.jpg",
+      "img/livro/brown/5.jpg",
+      "img/livro/brown/6.jpg"
+    ],
+
+    "estatisticas": { "5": 87, "4": 9, "3": 2, "2": 1, "1": 1 }
+  },
+
+  "machado_de_assis": {
+    "nome": "Machado de Assis",
+    "pais": "Brasil",
+    "nota": 5.0,
+    "avaliacoes": 20000,
+    "livros": 30,
+    "leitores": 18000,
+    "seguidores": 25000,
+    "videos": 2,
+    "genero": "Clássico",
+    "bio": "Machado de Assis é considerado o maior escritor da literatura brasileira. Nascido no Rio de Janeiro no século XIX, foi fundador da Academia Brasileira de Letras. Suas obras, como 'Dom Casmurro' e 'Memórias Póstumas de Brás Cubas', exploram profundamente a mente humana, a sociedade e a psicologia dos personagens. Seu estilo inovador, irônico e crítico o tornou uma das figuras mais importantes da literatura mundial.",
+    "foto": "img/autores/machado.jpg",
+
+    "livrosImgs": [
+      "img/livro/machado/1.jpg",
+      "img/livro/machado/2.jpg",
+      "img/livro/machado/3.jpg",
+      "img/livro/machado/4.jpg",
+      "img/livro/machado/5.jpg",
+      "img/livro/machado/6.jpg"
+    ],
+
+    "estatisticas": { "5": 96, "4": 3, "3": 1, "2": 0, "1": 0 }
+  },
+
+  "clarice_lispector": {
+    "nome": "Clarice Lispector",
+    "pais": "Brasil",
+    "nota": 4.9,
+    "avaliacoes": 15000,
+    "livros": 20,
+    "leitores": 12000,
+    "seguidores": 18000,
+    "videos": 2,
+    "genero": "Literatura introspectiva",
+    "bio": "Clarice Lispector foi uma escritora brasileira conhecida por sua escrita introspectiva e filosófica. Suas obras exploram emoções, identidade e a complexidade da existência humana. Com um estilo único e profundo, Clarice se destacou por abordar o interior dos personagens de maneira intensa e sensível. É considerada uma das autoras mais importantes da literatura brasileira e mundial.",
+    "foto": "img/autores/clarice.jpg",
+
+    "livrosImgs": [
+      "img/livro/clarice/1.jpg",
+      "img/livro/clarice/2.jpg",
+      "img/livro/clarice/3.jpg",
+      "img/livro/clarice/4.jpg",
+      "img/livro/clarice/5.jpg",
+      "img/livro/clarice/6.jpg"
+    ],
+
+    "estatisticas": { "5": 93, "4": 5, "3": 1, "2": 1, "1": 0 }
+  },
+
+  "tolkien": {
+    "nome": "J. R. R. Tolkien",
+    "pais": "Reino Unido",
+    "nota": 5.0,
+    "avaliacoes": 45000,
+    "livros": 25,
+    "leitores": 30000,
+    "seguidores": 50000,
+    "videos": 10,
+    "genero": "Fantasia",
+    "bio": "J. R. R. Tolkien foi um escritor, professor e filólogo britânico considerado o pai da fantasia moderna. Criador de obras como 'O Senhor dos Anéis' e 'O Hobbit', desenvolveu um universo extremamente detalhado, com línguas próprias, culturas e histórias complexas. Seu trabalho influenciou profundamente o gênero da fantasia e continua sendo referência até hoje.",
+    "foto": "img/autores/tolkien.jpg",
+
+    "livrosImgs": [
+      "img/livro/tolkien/1.jpg",
+      "img/livro/tolkien/2.jpg",
+      "img/livro/tolkien/3.jpg",
+      "img/livro/tolkien/4.jpg",
+      "img/livro/tolkien/5.jpg",
+      "img/livro/tolkien/6.jpg"
+    ],
+
+    "estatisticas": { "5": 97, "4": 2, "3": 1, "2": 0, "1": 0 }
+  },
+
+  "suzanne_collins": {
+    "nome": "Suzanne Collins",
+    "pais": "Estados Unidos",
+    "nota": 4.8,
+    "avaliacoes": 27000,
+    "livros": 10,
+    "leitores": 20000,
+    "seguidores": 28000,
+    "videos": 6,
+    "genero": "Distopia",
+    "bio": "Suzanne Collins é uma autora norte-americana conhecida pela trilogia 'Jogos Vorazes', que se tornou um fenômeno mundial. Suas obras abordam temas como poder, desigualdade social, sobrevivência e manipulação política em cenários distópicos. Seus livros foram adaptados para o cinema com grande sucesso, ampliando ainda mais seu impacto cultural.",
+    "foto": "img/autores/collins.jpg",
+
+    "livrosImgs": [
+      "img/livro/collins/1.jpg",
+      "img/livro/collins/2.jpg",
+      "img/livro/collins/3.jpg",
+      "img/livro/collins/4.jpg",
+      "img/livro/collins/5.jpg",
+      "img/livro/collins/6.jpg"
+    ],
+
+    "estatisticas": { "5": 91, "4": 6, "3": 2, "2": 1, "1": 0 }
+  },
+
+  "veronica_roth": {
+    "nome": "Veronica Roth",
+    "pais": "Estados Unidos",
+    "nota": 4.6,
+    "avaliacoes": 19000,
+    "livros": 8,
+    "leitores": 15000,
+    "seguidores": 20000,
+    "videos": 5,
+    "genero": "Distopia",
+    "bio": "Veronica Roth é uma escritora norte-americana conhecida pela série 'Divergente'. Suas histórias exploram sociedades futuristas divididas em facções, abordando temas como identidade, escolha e conflito social. Seu estilo combina ação, romance e reflexão, conquistando principalmente o público jovem adulto.",
+    "foto": "img/autores/roth.jpg",
+
+    "livrosImgs": [
+      "img/livro/roth/1.jpg",
+      "img/livro/roth/2.jpg",
+      "img/livro/roth/3.jpg",
+      "img/livro/roth/4.jpg",
+      "img/livro/roth/5.jpg",
+      "img/livro/roth/6.jpg"
+    ],
+
+    "estatisticas": { "5": 88, "4": 8, "3": 2, "2": 1, "1": 1 }
+  },
+
+  "john_green": {
+    "nome": "John Green",
+    "pais": "Estados Unidos",
+    "nota": 4.7,
+    "avaliacoes": 22000,
+    "livros": 12,
+    "leitores": 17000,
+    "seguidores": 26000,
+    "videos": 7,
+    "genero": "Romance",
+    "bio": "John Green é um autor contemporâneo norte-americano conhecido por romances voltados ao público jovem adulto. Obras como 'A Culpa é das Estrelas' abordam temas como amor, doença, amizade e o sentido da vida. Sua escrita é marcada por sensibilidade, profundidade emocional e diálogos marcantes, criando forte conexão com os leitores.",
+    "foto": "img/autores/green.jpg",
+
+    "livrosImgs": [
+      "img/livro/green/1.jpg",
+      "img/livro/green/2.jpg",
+      "img/livro/green/3.jpg",
+      "img/livro/green/4.jpg",
+      "img/livro/green/5.jpg",
+      "img/livro/green/6.jpg"
+    ],
+
+    "estatisticas": { "5": 89, "4": 7, "3": 2, "2": 1, "1": 1 }
+  },
+
+  "tahereh_mafi": {
+    "nome": "Tahereh Mafi",
+    "pais": "Estados Unidos",
+    "nota": 4.5,
+    "avaliacoes": 18000,
+    "livros": 10,
+    "leitores": 15000,
+    "seguidores": 23000,
+    "videos": 5,
+    "genero": "Fantasia / Jovem Adulto",
+    "bio": "Tahereh Mafi é uma autora contemporânea conhecida por suas obras de fantasia voltadas ao público jovem adulto. Ficou mundialmente famosa pela série 'Estilhaça-me', que combina romance, distopia e elementos sobrenaturais. Sua escrita se destaca pelo estilo poético, emocional e introspectivo, explorando temas como identidade, poder, amor e superação.",
+    "foto": "img/autores/mafi.jpg",
+
+    "livrosImgs": [
+      "img/livro/mafi/1.jpg",
+      "img/livro/mafi/2.jpg",
+      "img/livro/mafi/3.jpg",
+      "img/livro/mafi/4.jpg",
+      "img/livro/mafi/5.jpg",
+      "img/livro/mafi/6.jpg"
+    ],
+
+    "estatisticas": { "5": 70, "4": 20, "3": 6, "2": 2, "1": 2 }
+},
+
+"freida_mcfadden": {
+    "nome": "Freida McFadden",
+    "pais": "Estados Unidos",
+    "nota": 4.4,
+    "avaliacoes": 25000,
+    "livros": 20,
+    "leitores": 22000,
+    "seguidores": 30000,
+    "videos": 6,
+    "genero": "Thriller Psicológico / Suspense",
+    "bio": "Freida McFadden é uma autora norte-americana conhecida por seus thrillers psicológicos envolventes e cheios de reviravoltas. Com formação na área da saúde, ela incorpora elementos de tensão, mistério e comportamento humano em suas histórias. Suas obras, como 'A Empregada', conquistaram grande popularidade entre leitores que apreciam narrativas rápidas, surpreendentes e intensas.",
+    "foto": "img/autores/mcfadden.jpg",
+
+    "livrosImgs": [
+      "img/livro/mcfadden/1.jpg",
+      "img/livro/mcfadden/2.jpg",
+      "img/livro/mcfadden/3.jpg",
+      "img/livro/mcfadden/4.jpg",
+      "img/livro/mcfadden/5.jpg",
+      "img/livro/mcfadden/6.jpg"
+    ],
+
+    "estatisticas": { "5": 65, "4": 22, "3": 7, "2": 3, "1": 3 }
+},
+
+"lynn_painter": {
+    "nome": "Lynn Painter",
+    "pais": "Estados Unidos",
+    "nota": 4.3,
+    "avaliacoes": 14000,
+    "livros": 8,
+    "leitores": 12000,
+    "seguidores": 18000,
+    "videos": 4,
+    "genero": "Romance / Jovem Adulto",
+    "bio": "Lynn Painter é uma autora norte-americana conhecida por seus romances contemporâneos leves e envolventes, voltados ao público jovem adulto e adulto. Suas histórias frequentemente exploram relacionamentos, humor e situações do cotidiano com diálogos cativantes e personagens carismáticos. Obras como 'Better Than the Movies' conquistaram leitores por seu tom divertido, romântico e acolhedor.",
+    "foto": "img/autores/painter.jpg",
+
+    "livrosImgs": [
+      "img/livro/painter/1.jpg",
+      "img/livro/painter/2.jpg",
+      "img/livro/painter/3.jpg",
+      "img/livro/painter/4.jpg",
+      "img/livro/painter/5.jpg",
+      "img/livro/painter/6.jpg"
+    ],
+
+    "estatisticas": { "5": 60, "4": 25, "3": 8, "2": 4, "1": 3 }
+}
+
+}

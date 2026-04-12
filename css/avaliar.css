@@ -1,0 +1,124 @@
+h2{
+    text-transform: uppercase;
+    color: #fb5c81;
+    text-align: center;
+    font-weight: bold;
+}
+
+h3,h4 {
+    color: #fb5c81;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Formulário */
+.checkout-wrapper {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #e4eaff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(21, 0, 255, 0.1);
+}
+
+.bi-star-fill {
+    font-size: 1.2rem;
+}
+
+.stars {
+    display: flex;
+    gap: 0px;
+    margin-bottom: 5px;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+}
+
+.stars input[type="radio"] {
+    display: none;
+}
+
+.stars label {
+    font-size: 75px;
+    color: #fcb9f9;
+    cursor: pointer;
+    transition: color 0.2s;
+    user-select: none;
+}
+
+/* Estilo para estrelas selecionadas e hover */
+.stars input[type="radio"]:checked~label,
+.stars label:hover,
+.stars label:hover~label {
+    color: #3139c8;
+}
+
+.avaliacoes-lista {
+    background-color: #e4eaff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.avaliacao {
+    border-bottom: 1px solid #e4eaff;
+    padding: 15px 0;
+}
+
+.avaliacao:last-child {
+    border-bottom: none;
+}
+
+.avaliacao h4 {
+    margin: 0 0 5px;
+    color: #3139c8;
+}
+
+.avaliacao .estrela-avaliacao {
+    color: #3139c8;
+    margin-bottom: 5px;
+}
+
+.avaliacao p {
+    font-size: 1em;
+    color: #ccc;
+    margin: 0;
+}
+
+.avaliacoes {
+    display: flex;
+    flex-wrap: wrap;
+    /* quebra em tela menor */
+    justify-content: center;
+    gap: 2rem;
+    /* espaço entre cards */
+    margin-top: 2rem;
+}
+
+.card {
+    background-color: #e4eaff;
+    /* fundo escuro */
+    border: none;
+    /* remove borda cinza */
+    border-radius: 10px;
+    /* cantos arredondados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    /* sombra suave */
+    color: #333;
+    /* texto claro */
+}
+
+.card-body h5 {
+    font-weight: 600;
+    color: #fb5c81;
+    /* cor destaque no nome */
+}
+
+.titulo{
+    color:#3139c8;
+}
+
+.estrela {
+    color: #4952ff; /* seu roxo */
+}
+.nestrela {
+    color: #f85cf1; /* seu roxo */
+}

@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Eloisa & Haléxya">
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" class="fontegoogle"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <style>
+        header {
+            background: linear-gradient(135deg, #ff7f9d, #3181f8);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .container {
+
+            margin: auto;
+            padding: 40px 20px;
+        }
+
+        h2 {
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #0b3d91;
+        }
+
+        .titulo {
+            font-size: 90px;
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #ff7f9d;
+        }
+
+        .image {
+            width: 50%;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        .highlight {
+            background: #e9edff;
+            padding: 20px;
+            border-left: 4px solid #0b3d91;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+
+        .card {
+            background: #fdfbfd;
+            border: none;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+            border-radius: 15px;
+            transition: 0.3s;
+            cursor: pointer;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card img {
+            border-radius: 15px 15px 0 0;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        /* CARD EDITORA DIFERENCIADO */
+        .editora-card {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            transition: 0.3s;
+            border-top: 5px solid;
+            border-image: linear-gradient(90deg, #ff7f9d, #3181f8) 1;
+        }
+
+        .editora-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        /* IMAGEM (LOGO) */
+        .editora-card img {
+            height: 150px;
+            object-fit: contain;
+            padding: 20px;
+            background: #f5f7ff;
+        }
+
+        /* NOME */
+        .editora-card h5 {
+            font-weight: 600;
+            color: #3181f8;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/logos/icone.png" alt="logo" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="prateleira.html">ESTANTE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="autores.html">AUTORES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="graficos.html">MAIS LIDOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="avaliacoes.html">AVALIAÇÕES</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+
+    <header>
+        <h1>Bookly</h1>
+        <p>A importância dos autores e editoras na literatura</p>
+    </header>
+
+    <div class="container">
+
+        <!-- AUTORES -->
+        <section class="section">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="titulo">Autores</h2>
+                </div>
+                <div class="col-md-6">
+                    <p>Os autores são peças centrais no universo literário. São eles que transformam ideias em
+                        narrativas,
+                        registram culturas e constroem histórias que atravessam gerações. Através da escrita, conseguem
+                        influenciar pensamentos, despertar emoções e provocar reflexões profundas na sociedade.</p>
+                </div>
+            </div>
+
+            <div class="container mt-2">
+                <div id="listaAutores" class="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-4 justify-content-center">
+                </div>
+            </div>
+
+            <div class="text-center mt-2">
+                <button id="btnVerMais" class="btn btn-custom btn-rosa">
+                    Ver mais
+                </button>
+            </div>
+
+
+            <div class="highlight">
+                <strong>Importância:</strong> Sem autores, não existiriam livros. Eles são responsáveis por transmitir
+                conhecimento, cultura e entretenimento.
+            </div>
+
+            <p>Ao longo da história, autores tiveram papel fundamental em movimentos sociais, políticos e culturais.
+                Obras literárias já contribuíram para mudanças de pensamento coletivo e ajudaram a consolidar
+                identidades culturais em diversos países.</p>
+                
+            <p>Além disso, o processo criativo de um autor envolve dedicação intensa, revisão constante e, muitas vezes,
+                anos de trabalho até a publicação de uma obra. Cada livro carrega não apenas uma história, mas também a
+                visão de mundo de quem o escreveu.</p>
+
+
+        </section>
+
+
+
+        <!-- EDITORAS -->
+        <section class="section mt-5 py-5">
+
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="titulo">Editoras</h2>
+                </div>
+                <div class="col-md-6">
+                    <p>As editoras são responsáveis por transformar manuscritos em obras acessíveis ao público. Elas
+                        atuam na
+                        revisão, produção, distribuição e divulgação dos livros, garantindo qualidade e alcance das
+                        publicações.
+                    </p>
+                </div>
+
+                <div class="container mt-2">
+                    <div id="listaEditoras"
+                        class="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-4 justify-content-center">
+                    </div>
+                </div>
+
+                <div class="highlight">
+                    <strong>Função:</strong> Conectar autores ao público, garantindo que o conteúdo chegue com qualidade
+                    e
+                    impacto.
+                </div>
+
+                <p>Com o avanço da tecnologia, o setor editorial passou por grandes transformações. Hoje, além dos
+                    livros
+                    físicos, existem e-books e audiolivros, ampliando o acesso à leitura e alcançando novos públicos ao
+                    redor do mundo.</p>
+        </section>
+
+    </div>
+    <!-- <p style="color:#0b3d91">${autor.genero}</p>
+                        <small>★ ${autor.nota}</small> -->
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <script>
+        fetch("autores.json")
+            .then(res => res.json())
+            .then(dados => {
+
+                const container = document.getElementById("listaAutores");
+
+                let contador = 0;
+
+                Object.keys(dados).forEach(id => {
+
+                    const autor = dados[id];
+
+                    contador++;
+
+                    container.innerHTML += `
+        <div class="col autor-card ${contador > 5 ? 'd-none extra' : ''}">
+            <div class="card h-70" onclick="abrirAutor('${id}')">
+                
+                <img src="${autor.foto}" alt="${autor.nome}">
+
+                <div class="card-body text-center">
+                    <h5>${autor.nome}</h5>
+                </div>
+
+            </div>
+        </div>
+    `;
+                });
+
+            });
+
+        function abrirAutor(id) {
+            window.location.href = "telaautores.html?id=" + id;
+        }
+
+        document.getElementById("btnVerMais").addEventListener("click", function () {
+
+            const extras = document.querySelectorAll(".extra");
+
+            extras.forEach(card => {
+                card.classList.remove("d-none");
+            });
+
+            this.style.display = "none"; // esconde o botão depois de clicar
+        });
+    </script>
+
+    <script>
+        fetch("editoras.json")
+            .then(res => res.json())
+            .then(dados => {
+
+                const container = document.getElementById("listaEditoras");
+
+                Object.keys(dados).forEach(id => {
+
+                    const editora = dados[id];
+
+                    container.innerHTML += `
+                <div class="col">
+                    <div class="card editora-card text-center" onclick="abrirEditora('${id}')">
+                        
+                        <img src="${editora.logo}" alt="${editora.nome}">
+
+                    </div>
+                </div>
+            `;
+                });
+            });
+
+        function abrirEditora(id) {
+            window.location.href = "telaeditora.html?id=" + id;
+        }
+    </script>
+</body>
+
+</html>
