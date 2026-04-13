@@ -52,19 +52,24 @@
             color: #172d5c;
             font-weight: bold;
         }
-        #chart2{
+
+        #chart2 {
             align-self: center;
         }
+        #chart{
+            margin: 100px;
+        }
 
-        /* *{
-            border: 1px solid red;
-        } */
+        .conjuntograficos {
+            margin: 50px;
+            margin-bottom: 300px;
+        }
     </style>
-    </style>
+
 </head>
 
 <body>
-       <nav class="navbar navbar-expand-lg fixed-top">
+    <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
                 <img src="img/icone.png" alt="logo" class="logo">
@@ -105,7 +110,7 @@
         <div id="chart" class="gráfico1"></div>
     </div>
 
-    <div class="row">
+    <div class="row conjuntograficos">
 
         <div class="col-12" style="padding: 80px;">
             <h1>Estatísticas de livros que você leu esse ano</h1>
@@ -116,13 +121,13 @@
                 <div class="card-header">
                     <h3>Quantidade de livros lidos por gênero</h3>
                 </div>
-                <div id="chart2" ></div>
+                <div id="chart2"></div>
             </div>
             <div class="card">
                 <div class="card-header">
                     <h3>Quantidade de livros lidos em relação a sua meta</h3>
                 </div>
-                <div  id="chart4"></div>
+                <div id="chart4"></div>
             </div>
         </div>
 
@@ -435,7 +440,7 @@
 
 
 
-     <!-- <script>
+    <!-- <script>
         let table = new DataTable('#myTable');
 
 
@@ -1297,7 +1302,7 @@
         </div>
     </div>  -->
 
-   
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
 
@@ -1306,7 +1311,10 @@
             $('#minhaTabela').DataTable();
         });
     </script>
-
+    <footer>
+        <p style="padding: 50px; text-align: center;">Eloisa Santana e Haléxya| 2°Informática para Internet- IW2 | ©
+            Bookly</p>
+    </footer>
 </body>
 
 </html>

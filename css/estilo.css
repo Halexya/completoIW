@@ -32,7 +32,6 @@ main {
     border: none;
     margin-bottom: 0;
     font-weight: bold;
-    margin-right: 40px;
     background: radial-gradient(circle, rgba(255, 140, 169, 1) 0%, rgba(45, 119, 227, 1) 100%);
 }
 
@@ -53,6 +52,8 @@ main {
 .navbar a:hover,
 .navbar .nav-link.active {
     color: #FFFFFF;
+    border: none;
+    outline: none;
 }
 
 .nav-link {
@@ -120,6 +121,7 @@ p {
     font-family: 'Poppins', sans-serif;
     text-align: left;
     font-size: 20px;
+    margin-bottom: 100px;
 
 }
 
@@ -196,6 +198,7 @@ body {
 
 
 }
+
 
 .card img {
     height: auto;
