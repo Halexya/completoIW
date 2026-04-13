@@ -8,6 +8,7 @@
     <meta name="author" content="">
     <meta name="keywords" content="html,css, javascript">
     <title>Dados</title>
+    <link rel="icon" type="image/x-icon" href="img/logo.png">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/form.css">
     <link rel="stylesheet" href="css/estilo.css">
