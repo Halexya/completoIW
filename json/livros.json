@@ -1,0 +1,393 @@
+{
+    "Lugar Feliz": {
+        "titulo": "Lugar Feliz",
+        "autor": "Emily Henry",
+        "capa": "img/capas/lugarfeliz.jpg",
+        "nota": 4.5,
+        "leram": 1250,
+        "queremLer": 980,
+        "qtdResenhas": 320,
+        "descricao": "Uma história romântica sobre reencontros e segredos entre um casal que fingem ainda estar juntos durante férias com amigos.",
+        "nomes": [
+            "Ana Clara",
+            "José Fagundes",
+            "Maria Souza"
+        ],
+        "avaliacao1": "Muito leve e divertido de ler!",
+        "avaliacao2": "História romântica bem envolvente.",
+        "avaliacao3": "Personagens carismáticos e cativantes.",
+        "avaliaImg": [
+            "img/avaliar/people1.jpg",
+            "img/avaliar/people2.jpg",
+            "img/avaliar/people3.jpg"
+        ]
+    },
+    "É assim que acaba": {
+        "titulo": "É assim que acaba",
+        "autor": "Colleen Hoover",
+        "capa": "img/capas/eassimqueacaba.webp",
+        "nota": 4.8,
+        "leram": 5420,
+        "queremLer": 2100,
+        "qtdResenhas": 1850,
+        "descricao": "",
+        "nomes": [
+            "Suzane Vieira",
+            "Marcos Mendes",
+            "Milena Sol"
+        ],
+        "avaliacao1": "História emocionante do começo ao fim.",
+        "avaliacao2": "Aborda temas importantes de forma sensível.",
+        "avaliacao3": "Um livro que faz refletir bastante.",
+        "avaliaImg": [
+            "img/avaliar/people1.jpg",
+            "img/avaliar/people2.jpg",
+            "img/avaliar/people3.jpg"
+        ]
+    },
+    "O Príncipe Cruel": {
+        "titulo": "O Príncipe Cruel",
+        "autor": "Holly Black",
+        "capa": "img/capas/oprincipecruel.jpg",
+        "nota": 4.6,
+        "leram": 3890,
+        "queremLer": 1600,
+        "qtdResenhas": 970,
+        "descricao": "",
+        "nomes": [
+            "Helena Mya",
+            "Hector Ferras",
+            "Paula Duntra"
+        ],
+        "avaliacao1": "Mundo de fantasia muito bem construído.",
+        "avaliacao2": "Protagonista forte e interessante.",
+        "avaliacao3": "Cheio de intrigas e reviravoltas.",
+        "avaliaImg": [
+            "img/avaliar/people1.jpg",
+            "img/avaliar/people2.jpg",
+            "img/avaliar/people3.jpg"
+        ]
+    },
+    "Harry Potter e a Pedra Filosofal": {
+        "titulo": "Harry Potter e a Pedra Filosofal",
+        "autor": "J.K. Rowling",
+        "capa": "img/capas/harrypotterpedrafilosofal.webp",
+         "nota": 4.9,
+        "leram": 10200,
+        "queremLer": 3000,
+        "qtdResenhas": 4200,
+        "descricao": "",
+        "nomes": [
+            "Hermes Solaria",
+            "João do Gás",
+            "Cásssia Juliana"
+        ],
+        "avaliacao1": "Um clássico que nunca perde a magia.",
+        "avaliacao2": "Perfeito para todas as idades.",
+        "avaliacao3": "Início incrível de uma grande saga.",
+        "avaliaImg": [
+            "img/avaliar/people1.jpg",
+            "img/avaliar/people2.jpg",
+            "img/avaliar/people3.jpg"
+        ]
+    },
+    "Melhor do que nos filmes": {
+        "titulo": "Melhor do que nos filmes",
+        "autor": "Lynn Painter",
+        "capa": "img/capas/melhordoquenosfimes.jpg",
+        "nota": 4.4,
+        "leram": 2100,
+        "queremLer": 1300,
+        "qtdResenhas": 540,
+        "descricao": "",
+        "nomes": [
+            "Souza Souza",
+            "Mauricio Oliveira",
+            "Amanda Luna"
+        ],
+        "avaliacao1": "Romance leve e divertido.",
+        "avaliacao2": "Cheio de momentos fofos.",
+        "avaliacao3": "Leitura rápida e agradável.",
+        "avaliaImg": [
+            "img/avaliar/people1.jpg",
+            "img/avaliar/people2.jpg",
+            "img/avaliar/people3.jpg"
+        ]
+    },
+    "Caraval": {
+        "titulo": "Caraval",
+        "autor": "Stephanie Garber",
+        "capa": "img/capas/caraval.webp",
+        "nota": 4.5,
+        "leram": 3300,
+        "queremLer": 1700,
+        "qtdResenhas": 890,
+        "descricao": "",
+        "nomes": [
+            "Miguel O'Hara",
+            "Miles Morales",
+            "Gwen Stacy"
+        ],
+        "avaliacao1": "Universo mágico e criativo.",
+        "avaliacao2": "Cheio de surpresas e enigmas.",
+        "avaliacao3": "Muito envolvente e diferente.",
+        "avaliaImg": [
+            "img/avaliar/people1.jpg",
+            "img/avaliar/people2.jpg",
+            "img/avaliar/people3.jpg"
+        ]
+    },
+    "Incendia-Me": {
+        "titulo": "Incendia-Me",
+        "autor": "Tahereh Mafi",
+        "capa": "img/capas/incendeiame.webp",
+        "nota": 4.7,
+        "leram": 2800,
+        "queremLer": 900,
+        "qtdResenhas": 760,
+        "descricao": "",
+        "nomes": [
+            "Amara",
+            "Oswald Prada",
+            "Nicolle Yumi"
+        ],
+        "avaliacao1": "Final intenso e emocionante.",
+        "avaliacao2": "Personagens evoluem bastante.",
+        "avaliacao3": "Cheio de ação e sentimentos.",
+        "avaliaImg": [
+            "img/avaliar/people1.jpg",
+            "img/avaliar/people2.jpg",
+            "img/avaliar/people3.jpg"
+        ]
+    },
+    "Quarta Asa": {
+        "titulo": "Quarta Asa",
+        "autor": "Rebecca Yarros",
+        "capa": "img/capas/quartaasa.jpg",
+        "nota": 4.8,
+        "leram": 4100,
+        "queremLer": 2500,
+        "qtdResenhas": 1200,
+        "descricao": "",
+        "nomes": [
+            "Isis Sola",
+            "Armando Gernivaldo",
+            "Soneca"
+        ],
+        "avaliacao1": "Fantasia com muita ação.",
+        "avaliacao2": "História viciante.",
+        "avaliacao3": "Personagens marcantes.",
+        "avaliaImg": [
+            "img/avaliar/people1.jpg",
+            "img/avaliar/people2.jpg",
+            "img/avaliar/people3.jpg"
+        ]
+    },
+    "Manual de Assassinato para Boas Garotas": {
+        "titulo": "Manual de Assassinato para Boas Garotas",
+        "autor": "Holly Jackson",
+        "capa": "img/capas/manualdeassasinatoparaboasgarotas.webp",
+        "nota": 4.7,
+        "leram": 3600,
+        "queremLer": 1800,
+        "qtdResenhas": 1100,
+        "descricao": "",
+        "nomes": [
+            "Sula Prof",
+            "Alice Akhemi",
+            "Hellia Flora"
+        ],
+        "avaliacao1": "Mistério muito bem construído.",
+        "avaliacao2": "Prende até o final.",
+        "avaliacao3": "Reviravoltas surpreendentes.",
+        "avaliaImg": [
+            "img/avaliar/people1.jpg",
+            "img/avaliar/people2.jpg",
+            "img/avaliar/people3.jpg"
+        ]
+    },
+    "Academia dos Casos Arquivados": {
+        "titulo": "Academia dos Casos Arquivados",
+        "autor": "Jennifer Lynn Barnes",
+        "capa": "img/capas/academiadoscasosarquivados.jpg",
+        "nota": 4.3,
+        "leram": 1900,
+        "queremLer": 1200,
+        "qtdResenhas": 450,
+        "descricao": "",
+        "nomes": [
+            "Bloom Domino",
+            "Stella Solaria",
+            "Aisha Andros"
+        ],
+        "avaliacao1": "Enredo inteligente e intrigante.",
+        "avaliacao2": "Muito bom para quem gosta de investigação.",
+        "avaliacao3": "Leitura envolvente.",
+        "avaliaImg": [
+            "img/avaliar/people1.jpg",
+            "img/avaliar/people2.jpg",
+            "img/avaliar/people3.jpg"
+        ]
+    },
+    "Era uma vez um coração partido": {
+        "titulo": "Era uma vez um coração partido",
+        "autor": "Stephanie Garber",
+        "capa": "img/capas/eraumavezumcoracaopartido.jpg",
+        "nota": 4.6,
+        "leram": 3000,
+        "queremLer": 2000,
+        "qtdResenhas": 880,
+        "descricao": "",
+        "nomes": [
+            "Amely Taís",
+            "Lucas Gabriel",
+            "Antonio Castro"
+        ],
+        "avaliacao1": "Romance com toque mágico.",
+        "avaliacao2": "História encantadora.",
+        "avaliacao3": "Muito envolvente.",
+        "avaliaImg": [
+            "img/avaliar/people1.jpg",
+            "img/avaliar/people2.jpg",
+            "img/avaliar/people3.jpg"
+        ]
+    },
+    "Uma Vida em Tanto": {
+        "titulo": "Uma Vida em Tanto",
+        "autor": "Emily Henry",
+        "capa": "img/capas/umavidaemtanto.jpg",
+        "nota": 4.4,
+        "leram": 1700,
+        "queremLer": 1100,
+        "qtdResenhas": 400,
+        "descricao": "",
+        "nomes": [
+            "Cesar Casarine",
+            "Carine Mattos",
+            "José Filho"
+        ],
+        "avaliacao1": "Romance bem construído.",
+        "avaliacao2": "Personagens realistas.",
+        "avaliacao3": "História envolvente.",
+        "avaliaImg": [
+            "img/avaliar/people1.jpg",
+            "img/avaliar/people2.jpg",
+            "img/avaliar/people3.jpg"
+        ]
+    },
+    "Para Sempre Seu": {
+        "titulo": "Para Sempre Seu",
+        "autor": "Abby Jimenez",
+        "capa": "img/capas/parasempreseu.jpg",
+        "nota": 4.5,
+        "leram": 2200,
+        "queremLer": 1400,
+        "qtdResenhas": 600,
+        "descricao": "",
+        "nomes": [
+            "José Pai",
+            "Willian Guedes",
+            "Gabriela Luana"
+        ],
+        "avaliacao1": "Romance emocionante.",
+        "avaliacao2": "Leitura leve e agradável.",
+        "avaliacao3": "Muito cativante.",
+        "avaliaImg": [
+            "img/avaliar/people1.jpg",
+            "img/avaliar/people2.jpg",
+            "img/avaliar/people3.jpg"
+        ]
+    },
+    "Até o fim do verão": {
+        "titulo": "Até o fim do verão",
+        "autor": "Abby Jimenez",
+        "capa": "img/capas/ateofimdoverao.webp",
+        "nota": 4.3,
+        "leram": 1600,
+        "queremLer": 900,
+        "qtdResenhas": 350,
+        "descricao": "",
+        "nomes": [
+            "Girassol do Amanhâ",
+            "Mey Rosa",
+            "Petter Parker"
+        ],
+        "avaliacao1": "História leve e gostosa.",
+        "avaliacao2": "Personagens cativantes.",
+        "avaliacao3": "Perfeito para relaxar.",
+        "avaliaImg": [
+            "img/avaliar/people1.jpg",
+            "img/avaliar/people2.jpg",
+            "img/avaliar/people3.jpg"
+        ]
+    },
+    "Loucos por livros": {
+        "titulo": "Loucos por livros",
+        "autor": "Emily Henry",
+        "capa": "img/capas/loucosporlivros.png",
+        "nota": 4.6,
+        "leram": 2500,
+        "queremLer": 1500,
+        "qtdResenhas": 700,
+        "descricao": "",
+        "nomes": [
+            "Homem Aranha",
+            "Arthur Reis",
+            "Tessia Eralith"
+        ],
+        "avaliacao1": "Perfeito para quem ama leitura.",
+        "avaliacao2": "Divertido e leve.",
+        "avaliacao3": "Muito envolvente.",
+        "avaliaImg": [
+            "img/avaliar/people1.jpg",
+            "img/avaliar/people2.jpg",
+            "img/avaliar/people3.jpg"
+        ]
+    },
+    "Pessoas Normais": {
+        "titulo": "Pessoas Normais",
+        "autor": "Sally Rooney",
+        "capa": "img/capas/pessoasnormais.png",
+        "nota": 4.2,
+        "leram": 4800,
+        "queremLer": 2200,
+        "qtdResenhas": 1300,
+        "descricao": "",
+        "nomes": [
+            "Paedin Grey",
+            "Namorado da Paedy",
+            "Irmão do Kai"
+        ],
+        "avaliacao1": "História profunda e realista.",
+        "avaliacao2": "Personagens complexos.",
+        "avaliacao3": "Leitura marcante.",
+        "avaliaImg": [
+            "img/avaliar/people1.jpg",
+            "img/avaliar/people2.jpg",
+            "img/avaliar/people3.jpg"
+        ]
+    },
+    "Saving 6": {
+        "titulo": "Saving 6",
+        "autor": "Chloe Walsh",
+        "capa": "img/capas/saving6.jpg",
+        "nota": 4.5,
+        "leram": 2100,
+        "queremLer": 1300,
+        "qtdResenhas": 500,
+        "descricao": "",
+        "nomes": [
+            "Bianca Dias",
+            "Vinicius Vaz",
+            "Dom Pedro"
+        ],
+        "avaliacao1": "História intensa.",
+        "avaliacao2": "Personagens muito bem escritos.",
+        "avaliacao3": "Prende do começo ao fim.",
+        "avaliaImg": [
+            "img/avaliar/people1.jpg",
+            "img/avaliar/people2.jpg",
+            "img/avaliar/people3.jpg"
+        ]
+    }
+}

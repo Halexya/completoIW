@@ -1,0 +1,125 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    box-shadow: none;
+    border: none;
+    margin-bottom: 0;
+    font-weight: bold;
+    margin-right: 40px;
+    color: #eae9e9;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+/* Adiciona espaçamento entre os itens */
+.nav-item {
+    margin: 0 20px;
+}
+
+.navbar a {
+    color: #FFFFFF;
+}
+
+.navbar a:hover {
+    color: #ffffff;
+}
+
+
+.navbar .nav-link.active {
+    color: #e9e9e9;
+}
+.nav-link {
+    position: relative;
+}
+
+.nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background: #FF8CA9;
+    transition: 0.3s;
+    border-radius: 35px ;
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+    width: 100%;
+}
+
+.logo{
+    width: 150px;
+    height: auto;
+}
+
+.btn-custom {
+    width: 200px;
+    border-radius: 30px;
+    padding: 12px;
+    margin-bottom: 15px;
+}
+
+button.btn-rosa {
+    background: linear-gradient(135deg, #ff7f9d, #fb5c81);
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+    color: #f1d8f9;
+}
+
+button.btn-rosa:hover {
+    transform: scale(1.05);
+    background: linear-gradient(135deg, #fb5c81, #d91a44);
+    color: #fff;
+}
+
+
+button.btn-azul {
+    background: linear-gradient(135deg, #7fc3ff, #5cb1fb);
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+    color: #e5e9ff;
+}
+
+button.btn-azul:hover {
+    transform: scale(1.05);
+    background: linear-gradient(135deg, #5cb1fb, #1a93d9);
+    color: #fff;
+}
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+
+    nav,
+    article {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.text-footer {
+    margin: 0 auto;
+}
+
+footer {
+ background: radial-gradient(circle, rgba(255, 140, 169, 1) 0%, rgba(45, 119, 227, 1) 100%);
+    padding: 20px 0;
+    margin-top: auto;
+   
+}

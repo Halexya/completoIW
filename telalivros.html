@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autores</title>
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Eloisa & Haléxya">
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/tela.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" class="fontegoogle"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <style>
+        h1 {
+            text-align: left;
+        }
+
+        h2 {
+            font-size: 20px;
+        }
+
+        .capalivro {
+
+            border-radius: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/icone.png" alt="logo" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="prateleira.html">ESTANTE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="autores.html">AUTORES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="graficos.html">MAIS LIDOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="avaliacoes.html">AVALIAÇÕES</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container mt-4">
+        <nav class="container" style="--bs-breadcrumb-divider: '';" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="prateleira.html">Autores e Editoras</a></li>
+                <p class="mx-2">></p>
+                <li class="breadcrumb-item active" aria-current="page">Autor</li>
+            </ol>
+        </nav>
+
+        <div class="row">
+
+            <!-- CAPA -->
+            <div class="col-md-3 text-center">
+                <h1 id="tituloLateral"></h1>
+                <h2 id="autorLateral" class="float-start"></h2>
+
+                <img id="capa" class="capalivro img-fluid mb-3">
+
+                <div class="card mt-3 p-3 text-start">
+                    <strong>Informações</strong>
+                    <h3 class="mb-1">
+                        <!-- <h2 id="autorLateral" style="text-align: left;" class="float-end"></h2> -->
+                    </h3>
+                    <p>
+                        Nota
+                        <span id="notaLateral" class="float-end"></span>
+                    </p>
+                </div>
+            </div>
+
+            <!-- INFO PRINCIPAL -->
+            <div class="col-md-9 mt-3">
+
+                <div class="row mt-3 d-flex justify-content-center">
+                    <div class="col-6 col-md-3 mb-3">
+                        <div class="box-info">
+                            <h4 id="nota"></h4>
+                            <small>Nota</small>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-3 mb-3">
+                        <div class="box-info">
+                            <h4 id="leram"></h4>
+                            <small>Leram</small>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-3 mb-3">
+                        <div class="box-info">
+                            <h4 id="queremLer"></h4>
+                            <small>Querem ler</small>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-3 mb-3">
+                        <div class="box-info">
+                            <h4 id="qtdResenhas"></h4>
+                            <small>Resenhas</small>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- DESCRIÇÃO -->
+                <h3>
+                    <span id="titulo"></span>
+                    <small class="text-muted">| <span id="autor"></span></small>
+                </h3>
+                <p id="descricao" class="mt-4"></p>
+
+            </div>
+
+        </div>
+        <div class="row mt-4">
+            <div class="col-12 col-md-9 float-start mx-auto">
+                <div id="avaliacoesContainer" class="row"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        const tituloParam = params.get("titulo");
+
+        fetch("json/livros.json")
+            .then(res => res.json())
+            .then(dados => {
+
+                const livro = dados[tituloParam];
+
+                if (!livro) {
+                    console.log("Livro não encontrado");
+                    return;
+                }
+
+                // Dados básicos
+
+                document.getElementById("tituloLateral").textContent = livro.titulo;
+                document.getElementById("autorLateral").textContent = livro.autor;
+                document.getElementById("titulo").textContent = livro.titulo || tituloParam;
+                document.getElementById("autor").textContent = livro.autor;
+                document.getElementById("nota").textContent = livro.nota + " ★";
+                document.getElementById("leram").textContent = livro.leram;
+                document.getElementById("queremLer").textContent = livro.queremLer;
+                document.getElementById("qtdResenhas").textContent = livro.qtdResenhas;
+                document.getElementById("descricao").textContent = livro.descricao || "Sem descrição disponível.";
+
+                // Capa
+                document.getElementById("capa").src = livro.capa;
+
+                const container = document.getElementById("avaliacoesContainer");
+
+                if (!livro) return;
+
+                // nomes fake só pra exemplo
+                const nomes = livro.nomes;
+
+                const avaliacoes = [
+                    livro.avaliacao1,
+                    livro.avaliacao2,
+                    livro.avaliacao3
+                ];
+
+                avaliacoes.forEach((texto, i) => {
+
+                    container.innerHTML += `
+                <div class="col-md-4 p-2">
+                    <div class="card card-avaliar">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                
+                                <img src="${livro.avaliaImg[i]}" 
+                                     class="rounded-circle me-3" width="30" height="30">
+
+                                <h5 class="mb-0 me-auto">${nomes[i]}</h5>
+
+                            </div>
+
+                            <p class="card-text">"${texto}"</p>
+                        </div>
+                    </div>
+                </div>
+            `;
+                });
+
+
+
+            })
+            .catch(err => console.error("Erro:", err));
+    </script>
+
+</body>
+
+</html>
