@@ -127,14 +127,14 @@
 
 
 
-                            <div class="col-md-9">
+                            <div class="co-md-9 mt-3">
                                 <label class="form-label">Foto do livro</label>
                                 <input class="form-control" type="file" name="foto" id="foto" accept="image/*" required>
                                 <div class="invalid-feedback">
                                     Por favor, coloque um arquivo.
                                 </div>
                                 <!-- Preview da imagem -->
-                                <div class="mt-3">
+                                <div class="mt-3 d-flex justify-content-center">
                                     <img src="img/imagem1.png" alt="" class="main-imagem img-fluid rounded border"
                                         style="max-height: 180px;">
                                 </div>
