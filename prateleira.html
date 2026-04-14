@@ -114,8 +114,8 @@
         <input class="form-control pesquisa" type="search" placeholder="Procure um livro" aria-label="search" />
 
         <button class="botao btn btn-outline-success rounded-pill px-4 py-2" type="submit">Pesquisar</button>
-
- <!-- <div class="container mt-5 mb-4">
+<!-- 
+ <div class="container mt-5 mb-4">
             <div class="col-md-6">
                 <input type="text" id="busca" class="form-control" placeholder="Buscar autor...">
             </div>
@@ -176,8 +176,8 @@
                             <img src="${livro.capa}" class="img-fluid mb-2" alt="${livro.titulo}">
 
                             <div class="card-body">
-                                <h6 class="mb-1">${livro.titulo || titulo}</h6>
-                                <small class="text-muted">${livro.autor}</small>
+                                <h6 class="mb-1 titulo-livro">${livro.titulo || titulo}</h6>
+                                <small class="text-muted autor-livro">${livro.autor}</small>
 
                                 <div class="mt-2">
                                     ⭐ ${livro.nota}
@@ -198,14 +198,21 @@
 
     <!-- <script>
         document.getElementById("busca").addEventListener("input", function () {
-            const valor = this.value.toLowerCase()
-            const cards = document.querySelectorAll("#titulo")
+    const valor = this.value.toLowerCase();
 
-            cards.forEach(card => {
-                const nome = card.innerText.toLowerCase()
-                card.parentElement.style.display = nome.includes(valor) ? "block" : "none"
-            })
-        })
+    const cards = document.querySelectorAll(".col-md-3");
+
+    cards.forEach(card => {
+        const titulo = card.querySelector(".titulo-livro").innerText.toLowerCase();
+        const autor = card.querySelector(".autor-livro").innerText.toLowerCase();
+
+        if (titulo.includes(valor) || autor.includes(valor)) {
+            card.style.display = "block";
+        } else {
+            card.style.display = "none";
+        }
+    });
+});
     </script> -->
 
     <script src="js/bootstrap.bundle.min.js"></script>
