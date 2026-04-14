@@ -114,6 +114,15 @@
         <input class="form-control pesquisa" type="search" placeholder="Procure um livro" aria-label="search" />
 
         <button class="botao btn btn-outline-success rounded-pill px-4 py-2" type="submit">Pesquisar</button>
+
+ <!-- <div class="container mt-5 mb-4">
+            <div class="col-md-6">
+                <input type="text" id="busca" class="form-control" placeholder="Buscar autor...">
+            </div>
+
+        </div> -->
+
+
         <a href="cadastrar.php">
             <button class="botao btn btn-outline-success rounded-pill px-4 py-2">Cadastrar livro</button>
         </a>
@@ -186,6 +195,18 @@
             window.location.href = "telalivros.html?titulo=" + encodeURIComponent(titulo);
         }
     </script>
+
+    <!-- <script>
+        document.getElementById("busca").addEventListener("input", function () {
+            const valor = this.value.toLowerCase()
+            const cards = document.querySelectorAll("#titulo")
+
+            cards.forEach(card => {
+                const nome = card.innerText.toLowerCase()
+                card.parentElement.style.display = nome.includes(valor) ? "block" : "none"
+            })
+        })
+    </script> -->
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
