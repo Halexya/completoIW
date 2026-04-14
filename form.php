@@ -35,13 +35,12 @@
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="prateleira.html">Prateleira</a></li>
                         <p class="mx-2">></p>
-                        <li class="breadcrumb-item"><a href="cadastrar.html">Cadastro</a></li>
+                        <li class="breadcrumb-item"><a href="cadastrar.php">Cadastro</a></li>
                         <p class="mx-2">></p>
                         <li class="breadcrumb-item active" aria-current="page">Formulário</li>
                     </ol>
                 </nav>
-                <div class="container-centralizado">
-
+                <div class="container container-centralizado">
                     <div class="formulario">
                         <form name="form" class="row g-3 needs-validation mx-5 mt-2" action="dados.php" method="POST"
                             enctype="multipart/form-data" novalidate>
@@ -103,13 +102,13 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- <div class="col-md-9 m-3">
-                    <label for="arquivo" class="form-label">Foto do livro</label>
-                    <input class="form-control" type="file" name="arquivo" id="arquivo" required>
-                    <div class="invalid-feedback">
-                        Por favor, coloque um arquivo.
-                    </div>
-                </div> -->
+                            <!--  <div class="col-md-9 m-3">
+                            <label for="arquivo" class="form-label">Foto do livro</label>
+                            <input class="form-control" type="file" name="arquivo" id="arquivo" required>
+                            <div class="invalid-feedback">
+                                Por favor, coloque um arquivo.
+                            </div> -->
+
                             <div class="col-md-9">
                                 <label for="edicao" class="form-label">Edição</label>
                                 <select class="form-select" name="genero" required>
@@ -151,12 +150,10 @@
                         </form>
                     </div>
                 </div>
-
-
             </div>
-
         </div>
     </div>
+
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>

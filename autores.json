@@ -1,0 +1,58 @@
+[
+    {
+        "nome": "Machado de Assis",
+        "foto": "img/autores/machado.jpg",
+        "tipo": "br",
+        "frase": "Ao vencedor, as batatas.",
+        "bio": "Considerado o maior escritor da literatura brasileira, Machado de Assis destacou-se pelo uso de ironia, crítica social e análise psicológica dos personagens.",
+        "obras": "Dom Casmurro, Memórias Póstumas de Brás Cubas, Quincas Borba",
+        "curiosidade": "Foi o fundador e primeiro presidente da Academia Brasileira de Letras."
+    },
+    {
+        "nome": "Clarice Lispector",
+        "foto": "img/autores/clarice.jpg",
+        "tipo": "br",
+        "frase": "Liberdade é pouco. O que eu desejo ainda não tem nome.",
+        "bio": "Uma das maiores escritoras brasileiras, conhecida por sua escrita introspectiva e profunda, focada nas emoções e na existência humana.",
+        "obras": "A Hora da Estrela, Perto do Coração Selvagem, Laços de Família",
+        "curiosidade": "Nasceu na Ucrânia e veio para o Brasil ainda criança."
+    },
+
+    {
+        "nome": "George Orwell",
+        "foto": "img/orwell.jpg",
+        "tipo": "int",
+        "frase": "Big Brother está de olho em você.",
+        "bio": "Escritor britânico conhecido por suas críticas ao totalitarismo e à manipulação política.",
+        "obras": "1984, A Revolução dos Bichos",
+        "curiosidade": "Seu nome verdadeiro era Eric Arthur Blair."
+    },
+
+    {
+        "nome": "Jane Austen",
+        "foto": "img/jane.jpg",
+        "tipo": "int",
+        "frase": "Não há encanto igual à ternura do coração.",
+        "bio": "Escritora inglesa famosa por seus romances que abordam relações sociais, amor e comportamento da sociedade.",
+        "obras": "Orgulho e Preconceito, Razão e Sensibilidade, Emma",
+        "curiosidade": "Suas obras continuam extremamente populares até hoje."
+    },
+    {
+        "nome": "J.K. Rowling",
+        "foto": "img/rowling.jpg",
+        "tipo": "int",
+        "frase": "A felicidade pode ser encontrada mesmo nas horas mais difíceis.",
+        "bio": "Autora britânica mundialmente conhecida pela série Harry Potter, que conquistou milhões de leitores.",
+        "obras": "Harry Potter (série)",
+        "curiosidade": "Teve dificuldades financeiras antes do sucesso mundial."
+    },
+    {
+        "nome": "Stephen King",
+        "foto": "img/king.jpg",
+        "tipo": "int",
+        "frase": "Monstros são reais, fantasmas também.",
+        "bio": "Um dos maiores escritores de terror e suspense, conhecido por criar histórias envolventes e assustadoras.",
+        "obras": "It: A Coisa, O Iluminado, Carrie",
+        "curiosidade": "Já vendeu mais de 350 milhões de livros no mundo."
+    }
+]

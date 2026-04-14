@@ -33,7 +33,7 @@
                 <a href="form.php">
                     <button class="btn btn-custom btn-azul">Cadastrar</button>
                 </a>
-                <a href="prateleira.php">
+                <a href="prateleira.html">
                     <button class="btn btn-custom btn-rosa">Voltar</button>
                 </a>
 

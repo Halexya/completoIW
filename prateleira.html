@@ -111,47 +111,19 @@
 
     <div class="filtros d-flex align-items-center justify-content-center gap-2 flex-wrap">
 
-        <input class="form-control pesquisa" type="search" placeholder="Procure um livro" aria-label="search" />
-
-        <button class="botao btn btn-outline-success rounded-pill px-4 py-2" type="submit">Pesquisar</button>
-<!-- 
- <div class="container mt-5 mb-4">
-            <div class="col-md-6">
-                <input type="text" id="busca" class="form-control" placeholder="Buscar autor...">
-            </div>
-
-        </div> -->
-
+        <input class="form-control pesquisa" type="text" id="busca" class="form-control" placeholder="Buscar autor ou livro..." />
 
         <a href="cadastrar.php">
             <button class="botao btn btn-outline-success rounded-pill px-4 py-2">Cadastrar livro</button>
         </a>
 
-        <div class="dropdown">
-            <button class="btn bg-light border rounded-pill px-5 py-2 dropdown-toggle text-start" type="button"
-                data-bs-toggle="dropdown">
 
-                <div class="d-flex flex-column">
-                    <small class="text-muted">Filtrar</small>
-                    <strong>Títulos</strong>
-                </div>
-
-            </button>
-
-            <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Títulos</a></li>
-                <li><a class="dropdown-item" href="#">Autores</a></li>
-                <li><a class="dropdown-item" href="#">Gênero</a></li>
-                <li><a class="dropdown-item" href="#">Editora</a></li>
-                <li><a class="dropdown-item" href="#">Avaliação</a></li>
-            </ul>
-        </div>
 
     </div>
 
 
     <div class="container mt-4" style="padding: 10px;">
-        <div id="listaLivros" class="row"></div>
+        <div id="listaLivros" class="row d-flex justify-content-center"></div>
     </div>
 
     <footer>
@@ -196,7 +168,7 @@
         }
     </script>
 
-    <!-- <script>
+    <script>
         document.getElementById("busca").addEventListener("input", function () {
     const valor = this.value.toLowerCase();
 
@@ -213,7 +185,7 @@
         }
     });
 });
-    </script> -->
+    </script>
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
