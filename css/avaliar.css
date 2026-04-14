@@ -10,13 +10,24 @@ h2{
     max-width: 700px;
     margin: 50px auto;
     padding: 20px;
-    background-color: #e4eaff;
+    background-color: #eaeefd;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(21, 0, 255, 0.1);
 }
 
 .bi-star-fill {
     font-size: 1.2rem;
+}
+
+.form-control,
+.form-select {
+    background-color: #f8f9fd;
+}
+
+.form-control:focus,
+.form-select:focus {
+    background-color: #e1e6fc;
+    color: #000000;
 }
 
 .stars {

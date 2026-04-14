@@ -11,7 +11,7 @@
     <link rel="icon" type="image/x-icon" href="img/logo.png">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/form.css">
-    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/estilo1.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" class="fontegoogle"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
@@ -31,6 +31,15 @@
 
             <!-- LADO FORMULÁRIO -->
             <div class="col-md-8 right-side">
+                <nav class="container" style="--bs-breadcrumb-divider: '';" aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="prateleira.html">Prateleira</a></li>
+                        <p class="mx-2">></p>
+                        <li class="breadcrumb-item"><a href="cadastrar.html">Cadastro</a></li>
+                        <p class="mx-2">></p>
+                        <li class="breadcrumb-item active" aria-current="page">Formulário</li>
+                    </ol>
+                </nav>
                 <div class="container-centralizado">
 
                     <div class="formulario">
@@ -150,7 +159,7 @@
     </div>
 
     <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/estilo.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

@@ -73,7 +73,7 @@
 </head>
 
 <body>
-        <nav class="navbar navbar-expand-lg fixed-top">
+    <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
                 <img src="img/icone.png" alt="logo" class="logo">
@@ -114,7 +114,9 @@
         <input class="form-control pesquisa" type="search" placeholder="Procure um livro" aria-label="search" />
 
         <button class="botao btn btn-outline-success rounded-pill px-4 py-2" type="submit">Pesquisar</button>
-          <button class="botao btn btn-outline-success rounded-pill px-4 py-2" href="form.php">Cadastrar livro</button>
+        <a href="cadastrar.php">
+            <button class="botao btn btn-outline-success rounded-pill px-4 py-2">Cadastrar livro</button>
+        </a>
 
         <div class="dropdown">
             <button class="btn bg-light border rounded-pill px-5 py-2 dropdown-toggle text-start" type="button"
@@ -138,28 +140,29 @@
 
     </div>
 
-    </div>
-
-
 
     <div class="container mt-4" style="padding: 10px;">
         <div id="listaLivros" class="row"></div>
     </div>
 
+    <footer>
+        <p>Eloisa Santana e Haléxya| 2°Informática para Internet- IW2 | ©Bookly</p>
+    </footer>
+
     <script>
-    fetch("json/livros.json")
-        .then(res => res.json())
-        .then(dados => {
+        fetch("json/livros.json")
+            .then(res => res.json())
+            .then(dados => {
 
-            const container = document.getElementById("listaLivros");
+                const container = document.getElementById("listaLivros");
 
-            Object.keys(dados).forEach(titulo => {
+                Object.keys(dados).forEach(titulo => {
 
-                const livro = dados[titulo];
+                    const livro = dados[titulo];
 
-                container.innerHTML += `
+                    container.innerHTML += `
                     <div class="col-md-3 p-2">
-                        <div class="card card-define text-center" onclick="abrirLivro('${titulo}')">
+                        <div class="card card-estilo text-center" onclick="abrirLivro('${titulo}')">
                             
                             <img src="${livro.capa}" class="img-fluid mb-2" alt="${livro.titulo}">
 
@@ -175,14 +178,14 @@
                         </div>
                     </div>
                 `;
+                });
             });
-        });
 
-    function abrirLivro(titulo) {
-        // encode para evitar erro com espaços
-        window.location.href = "telalivros.html?titulo=" + encodeURIComponent(titulo);
-    }
-</script>
+        function abrirLivro(titulo) {
+            // encode para evitar erro com espaços
+            window.location.href = "telalivros.html?titulo=" + encodeURIComponent(titulo);
+        }
+    </script>
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>

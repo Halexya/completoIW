@@ -10,7 +10,7 @@
     <meta name="author" content="Eloisa & Haléxya">
     <link rel="icon" type="image/x-icon" href="img/logo.png">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/estilo1.css">
+    <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet" href="css/tela.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" class="fontegoogle"
         rel="stylesheet">
@@ -18,7 +18,7 @@
 </head>
 
 <body>
-     <nav class="navbar navbar-expand-lg fixed-top">
+    <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
                 <img src="img/icone.png" alt="logo" class="logo">
@@ -50,18 +50,16 @@
         </div>
     </nav>
 
-    <div class="container mt-5">
+    <div class="container">
         <nav class="container" style="--bs-breadcrumb-divider: '';" aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="autores.html">Autores e Editoras</a></li>
                 <p class="mx-2">></p>
                 <li class="breadcrumb-item active" aria-current="page">Autor</li>
             </ol>
-        </nav>
         <!-- TOPO -->
         <div class="row">
-            <!-- FOTO + MENU -->
-            <div class="row mt-3">
+            <div class="row mt-2">
                 <div class="col-md-3 text-center">
                     <img id="foto" class="perfil-img img-fluid mb-3">
 
@@ -197,69 +195,72 @@
 
 
         </div>
+    </div>
+    <footer>
+        <p>Eloisa Santana e Haléxya| 2°Informática para Internet- IW2 | ©Bookly</p>
+    </footer>
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        const id = params.get("id") || "rowling";
 
-        <script>
-            const params = new URLSearchParams(window.location.search);
-            const id = params.get("id") || "rowling";
+        fetch("json/autores.json")
+            .then(res => res.json())
+            .then(dados => {
 
-            fetch("json/autores.json")
-                .then(res => res.json())
-                .then(dados => {
+                const autor = dados[id];
+                const stats = autor.estatisticas;
 
-                    const autor = dados[id];
-                    const stats = autor.estatisticas;
+                if (!autor) return;
 
-                    if (!autor) return;
+                // Dados básicos
+                document.getElementById("nomeLateral").textContent = autor.nome;
+                document.getElementById("livrosLateral").textContent = autor.livros;
+                document.getElementById("videos").textContent = autor.videos;
+                document.getElementById("nome").textContent = autor.nome;
+                document.getElementById("pais").textContent = autor.pais;
+                document.getElementById("nota").textContent = autor.nota + " ★";
+                document.getElementById("avaliacoes").textContent = autor.avaliacoes + " avaliações";
+                document.getElementById("totalLivros").textContent = autor.livros;
+                document.getElementById("seguidores").textContent = autor.seguidores;
+                document.getElementById("leitores").textContent = autor.leitores;
+                document.getElementById("bio").textContent = autor.bio;
+                document.getElementById("genero").textContent = autor.genero;
+                document.getElementById("star5").style.width = stats["5"] + "%";
+                document.getElementById("star4").style.width = stats["4"] + "%";
+                document.getElementById("star3").style.width = stats["3"] + "%";
+                document.getElementById("star2").style.width = stats["2"] + "%";
+                document.getElementById("star1").style.width = stats["1"] + "%";
 
-                    // Dados básicos
-                    document.getElementById("nomeLateral").textContent = autor.nome;
-                    document.getElementById("livrosLateral").textContent = autor.livros;
-                    document.getElementById("videos").textContent = autor.videos;
-                    document.getElementById("nome").textContent = autor.nome;
-                    document.getElementById("pais").textContent = autor.pais;
-                    document.getElementById("nota").textContent = autor.nota + " ★";
-                    document.getElementById("avaliacoes").textContent = autor.avaliacoes + " avaliações";
-                    document.getElementById("totalLivros").textContent = autor.livros;
-                    document.getElementById("seguidores").textContent = autor.seguidores;
-                    document.getElementById("leitores").textContent = autor.leitores;
-                    document.getElementById("bio").textContent = autor.bio;
-                    document.getElementById("genero").textContent = autor.genero;
-                    document.getElementById("star5").style.width = stats["5"] + "%";
-                    document.getElementById("star4").style.width = stats["4"] + "%";
-                    document.getElementById("star3").style.width = stats["3"] + "%";
-                    document.getElementById("star2").style.width = stats["2"] + "%";
-                    document.getElementById("star1").style.width = stats["1"] + "%";
+                // Foto
+                document.getElementById("foto").src = autor.foto;
 
-                    // Foto
-                    document.getElementById("foto").src = autor.foto;
-
-                    // Livros (imagens)
-                    const container = document.getElementById("livrosContainer");
-                    container.innerHTML = "";
-
-                    autor.livrosImgs.forEach(img => {
-                        container.innerHTML += `<img src="${img}">`;
-                    });
-
-                    // Barras de avaliação
-                    const detalhe = autor.avaliacoesDetalhe;
-
-                    document.querySelector(".avaliacao-fill:nth-child(1)").style.width = detalhe["5"] + "%";
-                    document.querySelector(".avaliacao-fill:nth-child(2)").style.width = detalhe["4"] + "%";
-                    document.querySelector(".avaliacao-fill:nth-child(3)").style.width = detalhe["3"] + "%";
-
-                })
-                .catch(err => console.error("Erro:", err));
-
-            function scrollLivros(direcao) {
+                // Livros (imagens)
                 const container = document.getElementById("livrosContainer");
+                container.innerHTML = "";
 
-                container.scrollBy({
-                    left: direcao * 300,
-                    behavior: 'smooth'
+                autor.livrosImgs.forEach(img => {
+                    container.innerHTML += `<img src="${img}">`;
                 });
-            }
-        </script>
+
+                // Barras de avaliação
+                const detalhe = autor.avaliacoesDetalhe;
+
+                document.querySelector(".avaliacao-fill:nth-child(1)").style.width = detalhe["5"] + "%";
+                document.querySelector(".avaliacao-fill:nth-child(2)").style.width = detalhe["4"] + "%";
+                document.querySelector(".avaliacao-fill:nth-child(3)").style.width = detalhe["3"] + "%";
+
+            })
+            .catch(err => console.error("Erro:", err));
+
+        function scrollLivros(direcao) {
+            const container = document.getElementById("livrosContainer");
+
+            container.scrollBy({
+                left: direcao * 300,
+                behavior: 'smooth'
+            });
+        }
+    </script>
 </body>
 
 </html>

@@ -9,7 +9,10 @@ body {
     font-family: Arial, sans-serif;
     background-color: #eae9e9;
     margin: 0;
-    padding-top: 100px
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-top: 80px
 }
 
 main {
@@ -77,16 +80,25 @@ main {
     width: 100%;
 }
 
+/* NAVBAR */
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #fff;
+    transition: transform 0.3s ease;
+    z-index: 1000;
+}
 
-
-.text-footer {
-    margin: 0 auto;
+/* quando esconder */
+#navbar.hidden {
+    transform: translateY(-100%);
 }
 
 .logo {
-    height: 400px;
-
-    width: auto;
+    width: 150px;
+    height: auto;
+    margin-left: 18px;
 }
 
 h1,
@@ -102,13 +114,8 @@ h2 {
     font-size: 25px;
 }
 
-.logo {
-    width: 150px;
-    height: auto;
-    margin-left: 18px;
-}
 
-p {
+.subtitulo {
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     color: #172d5c;
@@ -122,13 +129,10 @@ p {
     text-align: left;
     font-size: 20px;
     margin-bottom: 100px;
-
 }
-
 
 thead {
     font-size: 23px;
-
 }
 
 .card-header {
@@ -137,29 +141,6 @@ thead {
     background: linear-gradient(102deg, rgba(115, 172, 230, 1) 7%, rgba(166, 206, 255, 1) 29%, rgba(204, 219, 247, 1) 67%, rgba(233, 230, 240, 1) 91%, rgba(247, 245, 245, 1) 100%);
 }
 
-footer {
-    background: radial-gradient(circle, rgba(255, 140, 169, 1) 0%, rgba(45, 119, 227, 1) 100%);
-
-}
-
-body {
-    margin: 0;
-}
-
-/* NAVBAR */
-#navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background: #fff;
-    transition: transform 0.3s ease;
-    z-index: 1000;
-}
-
-/* quando esconder */
-#navbar.hidden {
-    transform: translateY(-100%);
-}
 
 /* BOTÃO */
 #btnTopo {
@@ -187,7 +168,7 @@ body {
 }
 
 
-.card {
+.card-estilo {
     flex: 0 0 350px;
     background: #eee;
     border-radius: 20px;
@@ -195,18 +176,16 @@ body {
     text-align: center;
     scroll-snap-align: start;
     border-radius: 20px;
-
-
 }
 
 
-.card img {
+.card-estilo img {
     height: auto;
     object-fit: cover;
     border-radius: 15px;
 }
 
-.card button {
+.card-estilo button {
     border: none;
     padding: 8px 20px;
     border-radius: 20px;
@@ -214,4 +193,59 @@ body {
     background: linear-gradient(90deg, #FF8CA9, #2D77E3);
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
+}
+
+/* halexya botões */
+
+.btn-custom {
+    width: 200px;
+    border-radius: 30px;
+    padding: 12px;
+    margin-bottom: 15px;
+}
+
+button.btn-rosa {
+    background: linear-gradient(135deg, #ff7f9d, #fb5c81);
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+    color: #f1d8f9;
+}
+
+button.btn-rosa:hover {
+    transform: scale(1.05);
+    background: linear-gradient(135deg, #fb5c81, #d91a44);
+    color: #fff;
+}
+
+
+button.btn-azul {
+    background: linear-gradient(135deg, #7fc3ff, #5cb1fb);
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+    color: #e5e9ff;
+}
+
+button.btn-azul:hover {
+    transform: scale(1.05);
+    background: linear-gradient(135deg, #5cb1fb, #1a93d9);
+    color: #fff;
+}
+
+.text-footer {
+    margin: 0 auto;
+}
+
+footer {
+    text-align: center;
+    color: #fff;
+    padding: 40px 30px;
+    margin-top: auto;
+    background: radial-gradient(circle, rgba(255, 140, 169, 1) 0%, rgba(45, 119, 227, 1) 100%);
+
 }

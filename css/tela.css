@@ -1,5 +1,5 @@
 header {
-    background: linear-gradient(135deg, #ff7f9d, #3181f8);
+    background: radial-gradient(circle, rgba(255, 140, 169, 1) 0%, rgba(45, 119, 227, 1) 100%);
     color: white;
     padding: 80px 20px;
     text-align: center;
@@ -52,7 +52,7 @@ h2 {
 }
 
 .card-define {
-    background: #fdfbfd;
+    background-color: #eae9e9;
     border: none;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     border-radius: 15px;
@@ -90,7 +90,7 @@ h2 {
     height: 150px;
     object-fit: contain;
     padding: 20px;
-    background: #f5f7ff;
+    background-color: #eae9e9;
 }
 
 /* NOME */
@@ -103,6 +103,7 @@ h2 {
 
 .card {
     border-radius: 15px;
+    background-color: #eae9e9;
 }
 
 .perfil-img {
@@ -121,7 +122,7 @@ h5 {
 }
 
 .box-info {
-    background: linear-gradient(135deg, #fdf2f5, #f8cad4);
+    background: linear-gradient(90deg, #fdd2dc, #bfd6f8);
     border-radius: 15px;
     padding: 15px;
     text-align: center;
@@ -144,7 +145,7 @@ h5 {
 .avaliacao-bar {
     height: 7px;
     border-radius: 10px;
-    background-color: #ddd;
+    background-color: #eae9e9;
 }
 
 .avaliacao-fill {

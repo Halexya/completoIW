@@ -10,8 +10,8 @@
     <meta name="author" content="Eloisa & Haléxya">
     <link rel="icon" type="image/x-icon" href="img/logo.png">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/tela.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" class="fontegoogle"
         rel="stylesheet">
@@ -102,7 +102,6 @@
             gap: 20px;
             overflow-x: auto;
 
-
         }
 
         .carrossel {
@@ -115,14 +114,12 @@
             flex: 1;
         }
 
-
-
         .carrossel::-webkit-scrollbar {
             display: none;
         }
 
         /* CARD */
-        .card {
+        .card-carrosel {
             background: #eee;
             border-radius: 20px;
             padding: 15px;
@@ -132,13 +129,13 @@
             /* 4 cards certinho */
         }
 
-        .card img {
+        .card-carrosel img {
             height: auto;
             object-fit: cover;
             border-radius: 15px;
         }
 
-        .card button {
+        .card-carrosel button {
             border: none;
             padding: 8px 20px;
             border-radius: 20px;
@@ -184,13 +181,6 @@
             text-align: center;
         }
 
-        .seta {
-            border: none;
-            background: none;
-            font-size: 25px;
-            cursor: pointer;
-        }
-
         .prev,
         .next {
             flex-shrink: 0;
@@ -234,6 +224,30 @@
                 flex: 0 0 calc((100% - 20px) / 2);
                 /* 2 cards */
             }
+        }
+
+        .container-carrossel {
+            display: flex;
+            align-items: center;
+            /* alinha verticalmente */
+            justify-content: center;
+            gap: 10px;
+            /* espaço entre os itens */
+        }
+
+        .seta {
+            background: linear-gradient(135deg, #ff7f9d, #3181f8);
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            font-size: 20px;
+            cursor: pointer;
+            border-radius: 50%;
+        }
+
+        .carrossel {
+            display: flex;
+            overflow: hidden;
         }
 
         @media (max-width: 600px) {
@@ -288,26 +302,32 @@
         <div class="hero-content">
             <h1>Aqui na Bookly você encontra seu próximo livro favorito !</h1>
 
-            <p>Explore milhares de títulos, organize sua estante virtual e acompanhe seu progresso de leitura de forma
+            <p class="subtitulo">Explore milhares de títulos, organize sua estante virtual e acompanhe seu progresso de
+                leitura de forma
                 simples
                 e intuitiva. Na Bookly, você vive cada história junto com uma comunidade apaixonada por livros </p>
 
             <div class="botoes">
-                <button class="btn-primary" href="autores.html">Autores destaque</button>
-                <button class="btn-outline" href="graficos.html">Mais Lidos</button>
+                <a href="autores.html">
+                    <button class="btn-primary">Autores destaque</button>
+                </a>
+                <a href="graficos.html">
+                    <button class="btn-outline">Mais Lidos</button>
+                </a>
+
             </div>
         </div>
     </section>
 
-    <div class="fundo">
+    <section class="fundo">
         <h1 class="textofundo">CONHEÇA OS LANÇAMENTOS</h1>
         <div class="container">
             <div class="container-carrossel">
+
+
                 <button class="seta prev">&#10094;</button>
-
-
                 <div class="carrossel">
-                    <div class="card">
+                    <div class="card card-carrosel">
                         <img src="img/capas/releasing10.jpg">
                         <p class="titulolivro">Releasing 10
                         </p>
@@ -316,7 +336,7 @@
                         <button>Mais</button>
 
                     </div>
-                    <div class="card">
+                    <div class="card card-carrosel">
                         <img src="img/capas/dangerousimpulses.jpg">
                         <p class="titulolivro">Dangerous
                             Impulses</p>
@@ -325,7 +345,7 @@
                     </div>
 
 
-                    <div class="card">
+                    <div class="card card-carrosel">
                         <img src="img/capas/reinodeprofecias.jpg">
                         <p class="titulolivro">Reino de
                             Intrigas </p>
@@ -334,7 +354,7 @@
                         <button>Mais</button>
                     </div>
 
-                    <div class="card">
+                    <div class="card card-carrosel">
                         <img src="img/capas/patinandonoamor.jpg">
                         <p class="titulolivro">Patinando no
                             Amor</p>
@@ -342,7 +362,7 @@
                         <button>Mais</button>
                     </div>
 
-                    <div class="card">
+                    <div class="card card-carrosel">
                         <img src="img/capas/amornapratica.jpg">
                         <p class="titulolivro">Amor na Prática
                         </p>
@@ -350,7 +370,7 @@
                         <button>Mais</button>
                     </div>
 
-                    <div class="card">
+                    <div class="card card-carrosel">
                         <img src="img/capas/avidaemuitocutajpg.jpg">
                         <p class="titulolivro">A Vida em Muito
                             Cuta</p>
@@ -358,7 +378,7 @@
                         <button>Mais</button>
                     </div>
 
-                    <div class="card">
+                    <div class="card card-carrosel">
                         <img src="img/capas/manualdeassasinatoparaboasgarotas.webp">
                         <p class="titulolivro">Manual de
                             Assassinato para Boas
@@ -368,7 +388,7 @@
                     </div>
 
 
-                    <div class="card">
+                    <div class="card card-carrosel">
                         <img src="img/capas/loucosporlivros.png">
                         <p class="titulolivro">Loucos Por
                             Livros</p>
@@ -378,7 +398,7 @@
                     </div>
 
 
-                    <div class="card">
+                    <div class="card card-carrosel">
                         <img src="img/capas/pessoasnormais.png">
                         <p class="titulolivro">Pessoas Normais
                         </p>
@@ -386,7 +406,7 @@
                         <button>Mais</button>
                     </div>
 
-                    <div class="card">
+                    <div class="card card-carrosel">
                         <img src="img/capas/themirrorofinfinitenedings.jpg">
                         <p class="titulolivro">The Mirror of
                             Infinite Endings</p>
@@ -396,6 +416,12 @@
                 </div>
 
                 <button class="seta next">&#10095;</button>
+            </div>
+
+            <h1 class="textofundo">PRINCIPAIS EDITORAS</h1>
+            <div class="container mt-2">
+                <div id="listaEditoras" class="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-4 justify-content-center">
+                </div>
             </div>
         </div>
         <script>
@@ -1294,27 +1320,54 @@
             </div>
         </div>
 
-
-
-
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
-
-        <script>
-            $(document).ready(function () {
-                $('#minhaTabela').DataTable();
-            });
-        </script>
-        <script src="js/bootstrap.bundle.min.js"></script>
-        <script src="js/script.js"></script>
-
         <footer>
-            <p style="padding: 50px;">Eloisa Santana e Haléxya| 2°Informática para Internet- IW2 | ©Bookly</p>
+            <p>Eloisa Santana e Haléxya| 2°Informática para Internet- IW2 | ©Bookly</p>
         </footer>
+    </section>
+    <script>
+        fetch("json/editoras.json")
+            .then(res => res.json())
+            .then(dados => {
+
+                const container = document.getElementById("listaEditoras");
+
+                Object.keys(dados).forEach(id => {
+
+                    const editora = dados[id];
+
+                    container.innerHTML += `
+                <div class="col">
+                    <div class="card card-define editora-card text-center" onclick="abrirEditora('${id}')">
+                        
+                        <img src="${editora.logo}" alt="${editora.nome}" class="img-fluid">
+
+                    </div>
+                </div>
+            `;
+                });
+            });
+
+        function abrirEditora(id) {
+            window.location.href = "telaeditora.html?id=" + id;
+        }
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#minhaTabela').DataTable();
+        });
+    </script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
 
 
-        
-    </div>
+
+
+
+
 
 
 </body>
