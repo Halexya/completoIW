@@ -21,29 +21,18 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
     <style>
-        body {
-            height: 100vh;
-            margin: 0;
+        header {
             background: radial-gradient(circle, rgba(255, 140, 169, 1) 0%, rgba(45, 119, 227, 1) 100%);
-            /* background: #FF8CA9;
-            background: linear-gradient(352deg, rgba(255, 140, 169, 1) 0%, rgba(45, 119, 227, 1) 100%); */
-        }
-
-
-        .hero {
-            height: 100vh;
-            display: flex;
-            justify-content: flex-start;
-            align-items: center;
-            padding: 60px;
             color: white;
+            padding: 700px 100px 150px;
+            text-align: center;
         }
 
-        .hero-content {
+        .header-content{
             width: 50%;
         }
 
-        .hero h1 {
+        header h1 {
             font-size: 3rem;
             font-weight: bold;
             margin-bottom: 20px;
@@ -51,7 +40,7 @@
             text-align: left;
         }
 
-        .hero p {
+        header p {
             font-size: 18px;
             margin-bottom: 30px;
             text-align: left;
@@ -83,10 +72,6 @@
             color: white;
             font-family: 'Poppins', sans-serif;
             font-weight: bold;
-        }
-
-        .fundo {
-            background-color: #ebe9e7;
         }
 
         .textofundo {
@@ -298,8 +283,8 @@
 
 
 
-    <section class="hero">
-        <div class="hero-content">
+    <header>
+        <div class="header-content">
             <h1>Aqui na Bookly você encontra seu próximo livro favorito !</h1>
 
             <p class="subtitulo">Explore milhares de títulos, organize sua estante virtual e acompanhe seu progresso de
@@ -317,9 +302,9 @@
 
             </div>
         </div>
-    </section>
+    </header>
 
-    <section class="fundo">
+    <section>
         <h1 class="textofundo">CONHEÇA OS LANÇAMENTOS</h1>
         <div class="container">
             <div class="container-carrossel">
@@ -1320,10 +1305,10 @@
             </div>
         </div>
 
-        <footer>
-            <p>Eloisa Santana e Haléxya| 2°Informática para Internet- IW2 | ©Bookly</p>
-        </footer>
     </section>
+    <footer>
+        <p>Eloisa Santana e Haléxya| 2°Informática para Internet- IW2 | ©Bookly</p>
+    </footer>
     <script>
         fetch("json/editoras.json")
             .then(res => res.json())
