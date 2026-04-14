@@ -25,7 +25,7 @@
             <!-- LADO AZUL -->
             <div class="col-md-4 left-side">
 
-                <h1>Organize suas leituras com o Bookly!</h1>
+                <h1>Organize suas leituras com o Bookly! </h1>
                 <p>Cadastre seus livros e acompanhe sua biblioteca pessoal.</p>
             </div>
 
@@ -44,7 +44,7 @@
                     <div class="formulario">
                         <form name="form" class="row g-3 needs-validation mx-5 mt-2" action="dados.php" method="POST"
                             enctype="multipart/form-data" novalidate>
-                            <h3 class="mt-3">cadastro de livro</h3>
+                            <h3 class="mt-3">Cadastro de livro</h3>
                             <div class="row g-2">
                                 <div class="mb-3">
                                     <label for="isbn" class="form-label">Digite o ISBN</label>

@@ -153,6 +153,15 @@
             font-weight: bold;
         }
 
+        .botao{
+             border: none;
+            padding: 8px 20px;
+            border-radius: 20px;
+            color: white;
+            background: linear-gradient(90deg, #FF8CA9, #2D77E3);
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold;
+        }
 
         .btn {
             border: none;
@@ -1375,20 +1384,8 @@
         <p>Eloisa Santana e Haléxya| 2°Informática para Internet- IW2 | ©Bookly</p>
     </footer>
 
-
     <script>
-        document.getElementById("busca").addEventListener("input", function () {
-            const valor = this.value.toLowerCase()
-            const cards = document.querySelectorAll(".card-autor")
-
-            cards.forEach(card => {
-                const nome = card.innerText.toLowerCase()
-                card.parentElement.style.display = nome.includes(valor) ? "block" : "none"
-            })
-        })
-    </script>
-    <script>
-        fetch("autores.json")
+        fetch("json/autoress.json")
             .then(res => res.json())
             .then(autores => {
                 const container = document.getElementById("listaAutores")
@@ -1399,7 +1396,7 @@
                     <div class="card card-autor p-3 text-center">
                         <h5 class="autor-nome">${autor.nome}</h5>
                         <p><em>"${autor.frase}"</em></p>
-                        <button class="btn btn-primary mt-2" onclick="abrirModal(${index})">
+                        <button class=" botao mt-2" onclick="abrirModal(${index})">
                             Ver detalhes
                         </button>
                     </div>

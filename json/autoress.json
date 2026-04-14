@@ -20,7 +20,7 @@
 
     {
         "nome": "George Orwell",
-        "foto": "img/orwell.jpg",
+        "foto": "img/autores/orwell.jpg",
         "tipo": "int",
         "frase": "Big Brother está de olho em você.",
         "bio": "Escritor britânico conhecido por suas críticas ao totalitarismo e à manipulação política.",
@@ -30,7 +30,7 @@
 
     {
         "nome": "Jane Austen",
-        "foto": "img/jane.jpg",
+        "foto": "img/autores/austen.jpg",
         "tipo": "int",
         "frase": "Não há encanto igual à ternura do coração.",
         "bio": "Escritora inglesa famosa por seus romances que abordam relações sociais, amor e comportamento da sociedade.",
@@ -39,7 +39,7 @@
     },
     {
         "nome": "J.K. Rowling",
-        "foto": "img/rowling.jpg",
+        "foto": "img/autores/rowling.jpg",
         "tipo": "int",
         "frase": "A felicidade pode ser encontrada mesmo nas horas mais difíceis.",
         "bio": "Autora britânica mundialmente conhecida pela série Harry Potter, que conquistou milhões de leitores.",
@@ -48,7 +48,7 @@
     },
     {
         "nome": "Stephen King",
-        "foto": "img/king.jpg",
+        "foto": "img/autores/king.jpg",
         "tipo": "int",
         "frase": "Monstros são reais, fantasmas também.",
         "bio": "Um dos maiores escritores de terror e suspense, conhecido por criar histórias envolventes e assustadoras.",

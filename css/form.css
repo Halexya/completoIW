@@ -12,7 +12,8 @@
     border-radius: 12px;
     margin: auto;
     padding: 2rem 1rem;
-    box-shadow: 0 0 10px rgb(123, 122, 127);
+    border-color: #3139c8;
+    border-width: 2px;
 }
 
 .form-control,
@@ -29,7 +30,7 @@
 }
 
 .form-label {
-    font-weight: 600;
+    font-weight: 30px;
     color: #3139c8;
     font-weight: bold;
 }
@@ -40,7 +41,7 @@
     border: 3px solid #e3e5ef;
     border-radius: 12px;
     padding: 30px;
-    box-shadow: 0 0 10px rgb(123, 122, 127);
+    background-color: #f1f2f7;
     border-top: 6px solid #3181f8;
 }
 
@@ -49,31 +50,25 @@
     margin-bottom: 20px;
 }
 
-h3 {
-    text-transform: uppercase;
-    color: #ff7f9d;
-    text-align: center;
-    font-weight: bold;
-}
-
 .dados strong {
     color: #3181f8;
 }
 
 /* IMAGEM */
 .dados img {
-    border: 3px solid #ff7f9d;
+    border: 3px solid #ebb5c2;
     padding: 5px;
 }
 
 button.btn-rosa {
-    background: linear-gradient(135deg, #ff7f9d, #fb5c81);
+    background: linear-gradient(135deg, #f0a8b9, #fb5c81);
     border: none;
     border-radius: 20px;
     padding: 10px;
     font-weight: bold;
     transition: 0.3s;
     color: #f1d8f9;
+
 }
 
 button.btn-rosa:hover {
@@ -102,7 +97,7 @@ body {
 }
 
 .left-side {
-    background: linear-gradient(135deg, #0b3d91, #1f6feb);
+    background: linear-gradient(85deg, rgba(255, 140, 169, 1) 0%, rgba(45, 119, 227, 1) 100%);
     color: white;
     display: flex;
     flex-direction: column;
@@ -117,7 +112,7 @@ body {
     position: absolute;
     width: 500px;
     height: 500px;
-    background: url('../img/logos/livrologo.png') no-repeat center;
+    /* background: url('../img/fundoform.png') no-repeat center; <--imagem de fundo */
     background-size: contain;
     opacity: 0.08;
     top: 50%;
@@ -154,4 +149,23 @@ body {
     .left-side {
         display: none;
     }
+}
+
+h3 {
+
+    color: #ff7f9d;
+    text-align: center;
+    font-family: 'poppins', "sans-serif";
+    font-weight: bolder;
+    font-size: 35px;
+}
+h1{
+    font-size: 45px;
+}
+p{
+    font-size: 20px;
+}
+h2{
+    font-size: 25px;
+    padding-top: 5px;
 }
