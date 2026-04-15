@@ -31,7 +31,7 @@
 
             <!-- LADO FORMULÁRIO -->
             <div class="col-md-8 right-side">
-                <nav class="container" style="--bs-breadcrumb-divider: '';" aria-label="breadcrumb">
+                <nav class="container mt-3" style="--bs-breadcrumb-divider: '';" aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="prateleira.html">Prateleira</a></li>
                         <p class="mx-2">></p>
@@ -94,7 +94,7 @@
                                 </div>
 
                                 <div class="col-sm-6">
-                                    <label for="data" class="form-label">Data de publicação</label>
+                                    <label for="data" class="form-label">Data de cadastro</label>
                                     <input type="date" class="form-control" name="data" id="data" min="1450-01-01"
                                         max="2026-04-30" required>
                                     <div class="invalid-feedback">

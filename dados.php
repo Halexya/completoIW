@@ -79,9 +79,9 @@
 
                                 echo "\t<p><strong>ISBN:: </strong>$isbn</p>\n";
                                 echo "\t<p><strong>Ano do livro: </strong>$ano</p>\n";
-                                echo "\t<p><strong>Data de Publicação: </strong>" . $dataFormatada->format("d/m/Y") . "</p>\n";
+                                echo "\t<p><strong>Data de cadastro: </strong>" . $dataFormatada->format("d/m/Y") . "</p>\n";
                                 echo "\t<p><strong>Gênero: </strong>$genero</p>\n";
-                                echo "\t<p><strong>A capa do livro é: </strong>$arquivo</p>\n";
+                                echo "\t<p><strong>O nome do arquivo é: </strong>$arquivo</p>\n";
                                 ?>
                             </div>
 
