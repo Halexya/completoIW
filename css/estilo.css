@@ -35,7 +35,9 @@ main {
     border: none;
     margin-bottom: 0;
     font-weight: bold;
-    background: radial-gradient(circle, rgba(255, 140, 169, 1) 0%, rgba(45, 119, 227, 1) 100%);
+    background-color: #80001c ;
+    margin-bottom: 50px;
+    /* background: radial-gradient(circle, rgba(255, 140, 169, 1) 0%, rgba(45, 119, 227, 1) 100%); */
 }
 
 .navbar-nav {
@@ -244,6 +246,6 @@ footer {
     color: #fff;
     padding: 40px 30px;
     margin-top: auto;
-    background: radial-gradient(circle, rgba(255, 140, 169, 1) 0%, rgba(45, 119, 227, 1) 100%);
-
+    margin-top: 50px;
+     background-color: #80001c ;
 }

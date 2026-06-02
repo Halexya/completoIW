@@ -78,3 +78,11 @@ alt
 novo conceito
 gutenbenrg
 
+
+quando estiver no file manage mudar nome senha e tals.
+as informações estão na base de dados
+tabelaimg-tabelalivros
+
+filezilla-project.org
+dowload client - free
+firezilla-3.70.5 win64.zip
