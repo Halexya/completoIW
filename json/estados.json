@@ -1,0 +1,325 @@
+{
+  "acre": {
+    "estado": "Acre",
+    "capital": "Rio Branco",
+    "populacao": 830000,
+    "pib_bilhoes": 21000000000,
+    "taxa_natalidade": 12035,
+    "quantidade_pessoas_alfabetizadas": 664000,
+    "descricao": "O Acre possui forte cultura amazônica, com influência indígena e nordestina. O sotaque é tranquilo e regionalizado, com gírias típicas do Norte. Os principais pontos turísticos incluem o Rio Acre e áreas de floresta preservada. O comércio é baseado em serviços, extrativismo e agricultura.",
+    "quantidade_escolas": 1450,
+    "quantidade_leitores_livros": 238000
+  },
+
+  "alagoas": {
+    "estado": "Alagoas",
+    "capital": "Maceió",
+    "populacao": 3350000,
+    "pib_bilhoes": 64000000000,
+    "taxa_natalidade": 52930,
+    "quantidade_pessoas_alfabetizadas": 2510000,
+    "descricao": "Alagoas é conhecido pelas praias de água clara, cultura nordestina forte e festas populares. O sotaque é cantado e cheio de expressões regionais. Maragogi e Maceió são grandes atrações turísticas. O comércio depende bastante do turismo, serviços e produção agrícola.",
+    "quantidade_escolas": 5200,
+    "quantidade_leitores_livros": 890000
+  },
+
+  "amapa": {
+    "estado": "Amapá",
+    "capital": "Macapá",
+    "populacao": 730000,
+    "pib_bilhoes": 18000000000,
+    "taxa_natalidade": 11096,
+    "quantidade_pessoas_alfabetizadas": 590000,
+    "descricao": "O Amapá possui forte influência amazônica e indígena, com culinária e músicas regionais marcantes. O sotaque lembra o paraense e tem ritmo mais suave. O Marco Zero do Equador é um dos principais pontos turísticos. A economia gira em torno do comércio, mineração e serviços.",
+    "quantidade_escolas": 980,
+    "quantidade_leitores_livros": 205000
+  },
+
+  "amazonas": {
+    "estado": "Amazonas",
+    "capital": "Manaus",
+    "populacao": 4200000,
+    "pib_bilhoes": 156000000000,
+    "taxa_natalidade": 61740,
+    "quantidade_pessoas_alfabetizadas": 3360000,
+    "descricao": "O Amazonas possui cultura amazônica muito forte, marcada por lendas, culinária regional e festas folclóricas. O sotaque é leve e com expressões típicas do Norte. O Teatro Amazonas e o Encontro das Águas são atrações famosas. O comércio é impulsionado pela Zona Franca de Manaus.",
+    "quantidade_escolas": 6400,
+    "quantidade_leitores_livros": 1180000
+  },
+
+  "bahia": {
+    "estado": "Bahia",
+    "capital": "Salvador",
+    "populacao": 14800000,
+    "pib_bilhoes": 352000000000,
+    "taxa_natalidade": 205720,
+    "quantidade_pessoas_alfabetizadas": 11800000,
+    "descricao": "A Bahia tem cultura marcada pelo samba, axé e influência africana. O sotaque é bastante cantado e cheio de gírias regionais. Salvador, Porto Seguro e Chapada Diamantina são pontos turísticos conhecidos. O comércio é forte no turismo, agricultura e serviços.",
+    "quantidade_escolas": 21500,
+    "quantidade_leitores_livros": 4520000
+  },
+
+  "ceara": {
+    "estado": "Ceará",
+    "capital": "Fortaleza",
+    "populacao": 9200000,
+    "pib_bilhoes": 194000000000,
+    "taxa_natalidade": 124200,
+    "quantidade_pessoas_alfabetizadas": 7540000,
+    "descricao": "O Ceará possui cultura nordestina muito presente, com humor regional, forró e culinária típica. O sotaque é acelerado e musical. Jericoacoara e Canoa Quebrada são atrações famosas. O comércio é movimentado pelo turismo, serviços e indústria têxtil.",
+    "quantidade_escolas": 13200,
+    "quantidade_leitores_livros": 2980000
+  },
+
+  "distrito_federal": {
+    "estado": "Distrito Federal",
+    "capital": "Brasília",
+    "populacao": 3100000,
+    "pib_bilhoes": 286000000000,
+    "taxa_natalidade": 36580,
+    "quantidade_pessoas_alfabetizadas": 2780000,
+    "descricao": "O Distrito Federal abriga a capital do país e possui forte influência política e cultural diversa. O sotaque mistura características de várias regiões brasileiras. Brasília é famosa por sua arquitetura moderna e prédios governamentais. O comércio gira em torno de serviços e administração pública.",
+    "quantidade_escolas": 2300,
+    "quantidade_leitores_livros": 1450000
+  },
+
+  "espirito_santo": {
+    "estado": "Espírito Santo",
+    "capital": "Vitória",
+    "populacao": 4100000,
+    "pib_bilhoes": 186000000000,
+    "taxa_natalidade": 51660,
+    "quantidade_pessoas_alfabetizadas": 3480000,
+    "descricao": "O Espírito Santo possui cultura ligada ao litoral e influência italiana e alemã. O sotaque é suave e possui expressões próprias da região. Guarapari e Pedra Azul são atrações importantes. O comércio é forte na exportação, turismo e atividades portuárias.",
+    "quantidade_escolas": 4700,
+    "quantidade_leitores_livros": 1620000
+  },
+
+  "goias": {
+    "estado": "Goiás",
+    "capital": "Goiânia",
+    "populacao": 7200000,
+    "pib_bilhoes": 269000000000,
+    "taxa_natalidade": 95040,
+    "quantidade_pessoas_alfabetizadas": 6120000,
+    "descricao": "Goiás tem cultura sertaneja muito presente, com música country, festas agropecuárias e culinária típica. O sotaque é puxado e tranquilo. Caldas Novas e Chapada dos Veadeiros atraem turistas. O comércio é impulsionado pelo agronegócio e serviços.",
+    "quantidade_escolas": 8900,
+    "quantidade_leitores_livros": 2520000
+  },
+
+  "maranhao": {
+    "estado": "Maranhão",
+    "capital": "São Luís",
+    "populacao": 7100000,
+    "pib_bilhoes": 125000000000,
+    "taxa_natalidade": 113600,
+    "quantidade_pessoas_alfabetizadas": 5180000,
+    "descricao": "O Maranhão mistura influências nordestinas e amazônicas, com destaque para o bumba meu boi. O sotaque é marcante e melodioso. Lençóis Maranhenses e o centro histórico de São Luís são atrações famosas. O comércio depende do turismo e da agricultura.",
+    "quantidade_escolas": 11800,
+    "quantidade_leitores_livros": 1850000
+  },
+
+  "mato_grosso": {
+    "estado": "Mato Grosso",
+    "capital": "Cuiabá",
+    "populacao": 3700000,
+    "pib_bilhoes": 233000000000,
+    "taxa_natalidade": 52170,
+    "quantidade_pessoas_alfabetizadas": 3090000,
+    "descricao": "Mato Grosso possui cultura ligada ao agronegócio e tradições pantaneiras. O sotaque é mais puxado e com influência sertaneja. O Pantanal e a Chapada dos Guimarães são atrações importantes. O comércio gira em torno da agropecuária e exportações.",
+    "quantidade_escolas": 4200,
+    "quantidade_leitores_livros": 1280000
+  },
+
+  "mato_grosso_do_sul": {
+    "estado": "Mato Grosso do Sul",
+    "capital": "Campo Grande",
+    "populacao": 2800000,
+    "pib_bilhoes": 142000000000,
+    "taxa_natalidade": 37240,
+    "quantidade_pessoas_alfabetizadas": 2390000,
+    "descricao": "Mato Grosso do Sul possui forte influência pantaneira e cultura sertaneja. O sotaque é tranquilo e próximo ao interior paulista. Bonito e Pantanal são grandes atrações turísticas. O comércio é fortalecido pela agropecuária e ecoturismo.",
+    "quantidade_escolas": 3400,
+    "quantidade_leitores_livros": 980000
+  },
+
+  "minas_gerais": {
+    "estado": "Minas Gerais",
+    "capital": "Belo Horizonte",
+    "populacao": 21400000,
+    "pib_bilhoes": 857000000000,
+    "taxa_natalidade": 254660,
+    "quantidade_pessoas_alfabetizadas": 18400000,
+    "descricao": "Minas Gerais é conhecido pela culinária tradicional, cidades históricas e música sertaneja. O sotaque mineiro é calmo e cheio de expressões regionais. Ouro Preto e Capitólio são atrações famosas. O comércio é forte na mineração, indústria e serviços.",
+    "quantidade_escolas": 32500,
+    "quantidade_leitores_livros": 8150000
+  },
+
+  "para": {
+    "estado": "Pará",
+    "capital": "Belém",
+    "populacao": 8700000,
+    "pib_bilhoes": 215000000000,
+    "taxa_natalidade": 131370,
+    "quantidade_pessoas_alfabetizadas": 7020000,
+    "descricao": "O Pará possui forte cultura amazônica, marcada pelo carimbó, tecnobrega e culinária típica. O sotaque é puxado e cheio de expressões regionais. Alter do Chão e o Mercado Ver-o-Peso são atrações conhecidas. O comércio gira em torno da mineração, turismo e extrativismo.",
+    "quantidade_escolas": 12300,
+    "quantidade_leitores_livros": 2740000
+  },
+
+  "paraiba": {
+    "estado": "Paraíba",
+    "capital": "João Pessoa",
+    "populacao": 4000000,
+    "pib_bilhoes": 77000000000,
+    "taxa_natalidade": 54800,
+    "quantidade_pessoas_alfabetizadas": 3320000,
+    "descricao": "A Paraíba possui forte tradição nordestina, com festas juninas e música regional. O sotaque é rápido e bastante característico. João Pessoa e o litoral paraibano atraem muitos turistas. O comércio depende do turismo, agricultura e serviços.",
+    "quantidade_escolas": 5900,
+    "quantidade_leitores_livros": 1320000
+  },
+
+  "parana": {
+    "estado": "Paraná",
+    "capital": "Curitiba",
+    "populacao": 11800000,
+    "pib_bilhoes": 614000000000,
+    "taxa_natalidade": 135700,
+    "quantidade_pessoas_alfabetizadas": 10300000,
+    "descricao": "O Paraná possui forte influência europeia, principalmente italiana e alemã. O sotaque é mais neutro e típico da região Sul. As Cataratas do Iguaçu e Curitiba são grandes atrações turísticas. O comércio é fortalecido pela indústria e agricultura.",
+    "quantidade_escolas": 14800,
+    "quantidade_leitores_livros": 5020000
+  },
+
+  "pernambuco": {
+    "estado": "Pernambuco",
+    "capital": "Recife",
+    "populacao": 9600000,
+    "pib_bilhoes": 231000000000,
+    "taxa_natalidade": 132480,
+    "quantidade_pessoas_alfabetizadas": 7940000,
+    "descricao": "Pernambuco é conhecido pelo frevo, maracatu e forte tradição cultural nordestina. O sotaque é acelerado e cheio de expressões regionais. Recife, Olinda e Porto de Galinhas são atrações famosas. O comércio é impulsionado pelo turismo e serviços.",
+    "quantidade_escolas": 13900,
+    "quantidade_leitores_livros": 3480000
+  },
+
+  "piaui": {
+    "estado": "Piauí",
+    "capital": "Teresina",
+    "populacao": 3300000,
+    "pib_bilhoes": 64000000000,
+    "taxa_natalidade": 49170,
+    "quantidade_pessoas_alfabetizadas": 2670000,
+    "descricao": "O Piauí possui forte cultura sertaneja e culinária regional típica do Nordeste. O sotaque é tranquilo e bastante característico. A Serra da Capivara e o Delta do Parnaíba atraem turistas. O comércio depende da agricultura e serviços.",
+    "quantidade_escolas": 6100,
+    "quantidade_leitores_livros": 990000
+  },
+
+  "rio_de_janeiro": {
+    "estado": "Rio de Janeiro",
+    "capital": "Rio de Janeiro",
+    "populacao": 17300000,
+    "pib_bilhoes": 949000000000,
+    "taxa_natalidade": 193760,
+    "quantidade_pessoas_alfabetizadas": 15300000,
+    "descricao": "O Rio de Janeiro é famoso pelo samba, carnaval e praias conhecidas mundialmente. O sotaque carioca possui chiado e muitas gírias. Cristo Redentor e Copacabana são atrações famosas. O comércio é forte no turismo, petróleo e entretenimento.",
+    "quantidade_escolas": 18400,
+    "quantidade_leitores_livros": 7920000
+  },
+
+  "rio_grande_do_norte": {
+    "estado": "Rio Grande do Norte",
+    "capital": "Natal",
+    "populacao": 3500000,
+    "pib_bilhoes": 89000000000,
+    "taxa_natalidade": 47600,
+    "quantidade_pessoas_alfabetizadas": 2910000,
+    "descricao": "O Rio Grande do Norte possui cultura litorânea e tradição nordestina muito forte. O sotaque é leve e melodioso. Pipa e as dunas de Genipabu são atrações turísticas importantes. O comércio depende bastante do turismo e serviços.",
+    "quantidade_escolas": 4700,
+    "quantidade_leitores_livros": 1210000
+  },
+
+  "rio_grande_do_sul": {
+    "estado": "Rio Grande do Sul",
+    "capital": "Porto Alegre",
+    "populacao": 11300000,
+    "pib_bilhoes": 581000000000,
+    "taxa_natalidade": 122040,
+    "quantidade_pessoas_alfabetizadas": 10100000,
+    "descricao": "O Rio Grande do Sul possui forte tradição gaúcha, com churrasco e chimarrão. O sotaque é firme e influenciado por imigrantes europeus. Gramado e Canela são atrações muito visitadas. O comércio é fortalecido pela indústria e agropecuária.",
+    "quantidade_escolas": 15200,
+    "quantidade_leitores_livros": 4980000
+  },
+
+  "rondonia": {
+    "estado": "Rondônia",
+    "capital": "Porto Velho",
+    "populacao": 1800000,
+    "pib_bilhoes": 73000000000,
+    "taxa_natalidade": 25740,
+    "quantidade_pessoas_alfabetizadas": 1480000,
+    "descricao": "Rondônia possui cultura diversificada por receber migrantes de várias regiões brasileiras. O sotaque varia bastante conforme a cidade. Áreas de floresta e rios amazônicos atraem visitantes. O comércio gira em torno do agronegócio e extrativismo.",
+    "quantidade_escolas": 2500,
+    "quantidade_leitores_livros": 620000
+  },
+
+  "roraima": {
+    "estado": "Roraima",
+    "capital": "Boa Vista",
+    "populacao": 650000,
+    "pib_bilhoes": 16000000000,
+    "taxa_natalidade": 10075,
+    "quantidade_pessoas_alfabetizadas": 520000,
+    "descricao": "Roraima possui forte presença indígena e paisagens naturais amazônicas. O sotaque mistura influências nortistas e de imigrantes. O Monte Roraima é a principal atração turística. O comércio depende principalmente de serviços e administração pública.",
+    "quantidade_escolas": 870,
+    "quantidade_leitores_livros": 180000
+  },
+
+  "santa_catarina": {
+    "estado": "Santa Catarina",
+    "capital": "Florianópolis",
+    "populacao": 7600000,
+    "pib_bilhoes": 428000000000,
+    "taxa_natalidade": 85880,
+    "quantidade_pessoas_alfabetizadas": 6820000,
+    "descricao": "Santa Catarina possui forte influência alemã e italiana em sua cultura. O sotaque muda conforme a região, principalmente no litoral. Florianópolis e Blumenau são destinos muito procurados. O comércio é forte na indústria, turismo e tecnologia.",
+    "quantidade_escolas": 9800,
+    "quantidade_leitores_livros": 3520000
+  },
+
+  "sao_paulo": {
+    "estado": "São Paulo",
+    "capital": "São Paulo",
+    "populacao": 46000000,
+    "pib_bilhoes": 2700000000000,
+    "taxa_natalidade": 483000,
+    "quantidade_pessoas_alfabetizadas": 42000000,
+    "descricao": "São Paulo é o maior centro econômico do Brasil e possui cultura muito diversa. O sotaque paulistano é rápido e cheio de gírias urbanas. Avenida Paulista e litoral paulista são atrações conhecidas. O comércio e a indústria são os mais fortes do país.",
+    "quantidade_escolas": 45200,
+    "quantidade_leitores_livros": 19800000
+  },
+
+  "sergipe": {
+    "estado": "Sergipe",
+    "capital": "Aracaju",
+    "populacao": 2300000,
+    "pib_bilhoes": 51000000000,
+    "taxa_natalidade": 30820,
+    "quantidade_pessoas_alfabetizadas": 1890000,
+    "descricao": "Sergipe possui forte cultura nordestina, com festas populares e culinária regional. O sotaque é leve e acolhedor. Aracaju e o Cânion do Xingó são atrações importantes. O comércio depende principalmente do turismo e serviços.",
+    "quantidade_escolas": 3200,
+    "quantidade_leitores_livros": 710000
+  },
+
+  "tocantins": {
+    "estado": "Tocantins",
+    "capital": "Palmas",
+    "populacao": 1600000,
+    "pib_bilhoes": 51000000000,
+    "taxa_natalidade": 23360,
+    "quantidade_pessoas_alfabetizadas": 1320000,
+    "descricao": "Tocantins mistura influências culturais do Norte e Centro-Oeste brasileiro. O sotaque é semelhante ao sertanejo do interior. O Jalapão é a principal atração turística do estado. O comércio gira em torno do agronegócio e turismo ecológico.",
+    "quantidade_escolas": 2400,
+    "quantidade_leitores_livros": 520000
+  }
+}

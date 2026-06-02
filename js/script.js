@@ -54,4 +54,3 @@ inputUpload.addEventListener('change', async (evento) => {
     }
 })
 
-
